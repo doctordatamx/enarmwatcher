@@ -1,5 +1,12 @@
 # Historial de cambios
 
+## 0.2.2 — 2026-10-31
+
+- Tendencias y Predicciones y la ruta `/lab` actualizadas con cobertura dinámica y nuevos datos de 2024–2025.
+- Series nacionales, universidades, especialidades y oferta con observaciones, fuentes, descargas y requisitos por modelo.
+- La cantidad de años y la comparabilidad se evalúan separadamente; añadir ediciones no activa proyecciones de forma automática.
+- Laboratorio avanzado de especialidades conservado en `/specialty-lab`.
+
 ## 0.2.1 — 2026-10-31
 
 - Reportes académicos oficiales 2024 y 2025: 153 y 159 filas, con 2,528 registros acumulados y cobertura 2001–2025.

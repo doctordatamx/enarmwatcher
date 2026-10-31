@@ -27,5 +27,7 @@ def main():
         w=csv.writer(f);w.writerow(['year','institution','specialty','level','place_type','places','source_id','status'])
         w.writerows([r['year'],r['institution_id'],r['specialty_id'],'national_institution','oferta_publicada_R1',r['places'],r['source_id'],'extracted_checked'] for r in d['receiving'])
     print('API partitioned; catalogue',len(items),'entries')
+    from .trends import build
+    build(d,specialties)
 
 if __name__=='__main__':main()

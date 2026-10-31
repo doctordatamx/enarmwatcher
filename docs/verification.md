@@ -40,3 +40,13 @@ La consulta de lectura `git ls-remote https://github.com/doctordatamx/enarmwatch
 - Pruebas específicas de valores oficiales, conteos y reproducción de ambos parsers.
 
 - Verificación final de esta ampliación: 47 pruebas aprobadas; build y validación de subruta/particiones/manifest aprobados. Portada y selector universitario 2025 verificados en navegador.
+
+## Tendencias y Predicciones 0.2.2
+
+- `/predictions` y `/lab` muestran series actualizadas, incluidas las ediciones académicas 2024 y 2025.
+- Cobertura derivada de los datos: académico 2001–2025, especialidades 2022–2025 y oferta institucional 2023–2025.
+- Selectores de conjunto, entidad e indicador; exportación de observaciones y evaluación de elegibilidad.
+- Los valores faltantes y la comparabilidad pendiente bloquean modelos aunque se alcance la longitud mínima; no se publican proyecciones sin validación suficiente.
+- 52 pruebas aprobadas; compilación y comprobación estática de subruta y particiones aprobadas.
+- Navegador: carga de las nuevas series, cambio de conjunto e indicador y ausencia de desbordamiento horizontal a 360 px.
+- Evidencia visual: `trends-predictions-desktop.jpg`.

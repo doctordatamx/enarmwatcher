@@ -78,3 +78,7 @@ MIT se aplica al código original; las fuentes y cartografía conservan sus dere
 ![Inicio del observatorio](docs/enarm-watcher-desktop.jpg)
 
 ![Instituciones receptoras](docs/receiving-institutions-desktop.jpg)
+
+## Tendencias actualizadas
+
+`#/predictions` y `#/lab` comparten el explorador de series y elegibilidad. La cobertura se genera desde los datos actuales: académicos 2001–2025, especialidades 2022–2025 y oferta institucional 2023–2025. Los filtros se guardan en la URL. `pipeline/trends.py` se ejecuta automáticamente con la partición de datos. El laboratorio de especialidades y simulador permanece en `#/specialty-lab`.

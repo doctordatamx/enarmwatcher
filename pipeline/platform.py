@@ -270,9 +270,8 @@ def main(academic_only=False):
             rows=receiving_sites(source);sites.extend(rows);source['rows']=len(rows);source['status']='extracted_checked';print('sites',source['file'].split('-')[-1],len(rows),sum(r['places'] for r in rows),flush=True)
     for r in academics:r['rate_interval95']=binomial_interval(r['selected'],r['examined'])
     years=sorted({r['year'] for r in academics});national=[dict(year=y,**national_aggregate([r for r in academics if r['year']==y])) for y in years]
-    institutions=[]
-    for id in sorted({r['id'] for r in academics}):
-        records=sorted([r for r in academics if r['id']==id],key=lambda r:r['year']);institutions.append({'id':id,'name':records[-1]['name'],'state':records[-1]['state'],'records':records})
+    from .university_identity import university_profiles
+    institutions=university_profiles(academics,sources)
     receiving_summary=[dict(year=y,**concentration([sum(r['places'] for r in receiving if r['year']==y and r['institution_id']==id) for id in {r['institution_id'] for r in receiving if r['year']==y}])) for y in sorted({r['year'] for r in receiving})]
     if len({r['code'] for r in sites})!=len(sites):raise ValueError('Duplicate code across receiving sources')
     reconciliation=[]

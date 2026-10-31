@@ -15078,6 +15078,444 @@
       "state": "CIUDAD DE MÉXICO",
       "records": [
         {
+          "id": "distrito-federal-universidad-panamericana",
+          "name": "Universidad Panamericana",
+          "state": "CIUDAD DE MÉXICO",
+          "state_original": "DISTRITO FEDERAL",
+          "year": 2002,
+          "registered": 27,
+          "examined": 26,
+          "selected": 22,
+          "score": 56.16,
+          "score_statistic": "mean",
+          "rate": 84.61538461538461,
+          "population": "mexicana",
+          "source_id": "academic-2002-b881fbcf",
+          "page": null,
+          "original_values": [
+            "27",
+            "26",
+            "22",
+            "50.76",
+            "5.40",
+            "56.16"
+          ],
+          "score_comparable_group": null,
+          "rate_comparable_group": null,
+          "identity_status": "exact_normalized_name_and_source_state",
+          "geographic_note": "Entidad de escuela en la fuente; no residencia del sustentante",
+          "rate_interval95": [
+            66.4688006717871,
+            93.8499662764215
+          ]
+        },
+        {
+          "id": "distrito-federal-universidad-panamericana",
+          "name": "Universidad Panamericana",
+          "state": "CIUDAD DE MÉXICO",
+          "state_original": "DISTRITO Federal",
+          "year": 2003,
+          "registered": 37,
+          "examined": 37,
+          "selected": 27,
+          "score": 59.1,
+          "score_statistic": "median",
+          "rate": 72.97297297297297,
+          "population": "mexicana",
+          "source_id": "academic-2003-a44e0702",
+          "page": null,
+          "original_values": [
+            "37",
+            "37",
+            "27",
+            "51.00",
+            "8.40",
+            "59.10"
+          ],
+          "score_comparable_group": null,
+          "rate_comparable_group": null,
+          "identity_status": "exact_normalized_name_and_source_state",
+          "geographic_note": "Entidad de escuela en la fuente; no residencia del sustentante",
+          "rate_interval95": [
+            57.021831675286194,
+            84.60253848895066
+          ]
+        },
+        {
+          "id": "distrito-federal-universidad-panamericana",
+          "name": "Universidad Panamericana",
+          "state": "CIUDAD DE MÉXICO",
+          "state_original": "DISTRITO FEDERAL",
+          "year": 2004,
+          "registered": 34,
+          "examined": 32,
+          "selected": 18,
+          "score": 53.9,
+          "score_statistic": "median",
+          "rate": 56.25,
+          "population": "mexicana",
+          "source_id": "academic-2004-c22bc414",
+          "page": null,
+          "original_values": [
+            "34",
+            "32",
+            "18",
+            "46.43",
+            "7.80",
+            "53.90"
+          ],
+          "score_comparable_group": null,
+          "rate_comparable_group": null,
+          "identity_status": "exact_normalized_name_and_source_state",
+          "geographic_note": "Entidad de escuela en la fuente; no residencia del sustentante",
+          "rate_interval95": [
+            39.32559113685242,
+            71.83466888495926
+          ]
+        },
+        {
+          "id": "distrito-federal-universidad-panamericana",
+          "name": "Universidad Panamericana",
+          "state": "CIUDAD DE MÉXICO",
+          "state_original": "DISTRITO FEDERAL",
+          "year": 2005,
+          "registered": 49,
+          "examined": 48,
+          "selected": 21,
+          "score": 55.58,
+          "score_statistic": "median",
+          "rate": 43.75,
+          "population": "mexicana",
+          "source_id": "academic-2005-f4b591bd",
+          "page": null,
+          "original_values": [
+            "49",
+            "48",
+            "21",
+            "48.23",
+            "7.60",
+            "55.58"
+          ],
+          "score_comparable_group": null,
+          "rate_comparable_group": null,
+          "identity_status": "exact_normalized_name_and_source_state",
+          "geographic_note": "Entidad de escuela en la fuente; no residencia del sustentante",
+          "rate_interval95": [
+            30.701269040654562,
+            57.72498258017187
+          ]
+        },
+        {
+          "id": "distrito-federal-universidad-panamericana",
+          "name": "Universidad Panamericana",
+          "state": "CIUDAD DE MÉXICO",
+          "state_original": "DISTRITO FEDERAL",
+          "year": 2006,
+          "registered": 54,
+          "examined": 54,
+          "selected": 33,
+          "score": 61.7,
+          "score_statistic": "median",
+          "rate": 61.111111111111114,
+          "population": "mexicana",
+          "source_id": "academic-2006-858fcb8d",
+          "page": null,
+          "original_values": [
+            "54",
+            "54",
+            "33",
+            "53.93",
+            "8.10",
+            "61.70"
+          ],
+          "score_comparable_group": null,
+          "rate_comparable_group": null,
+          "identity_status": "exact_normalized_name_and_source_state",
+          "geographic_note": "Entidad de escuela en la fuente; no residencia del sustentante",
+          "rate_interval95": [
+            47.78829853820806,
+            72.95806617088321
+          ]
+        },
+        {
+          "id": "distrito-federal-universidad-panamericana",
+          "name": "Universidad Panamericana",
+          "state": "CIUDAD DE MÉXICO",
+          "state_original": "DISTRITO FEDERAL",
+          "year": 2007,
+          "registered": null,
+          "examined": 64,
+          "selected": 43,
+          "score": 56.49,
+          "score_statistic": "mean",
+          "rate": 67.1875,
+          "population": "mexicana",
+          "source_id": "academic-2007-73cc0028",
+          "page": null,
+          "original_values": [
+            "64",
+            "43",
+            "37.61",
+            "5.47",
+            "56.49"
+          ],
+          "score_comparable_group": null,
+          "rate_comparable_group": null,
+          "identity_status": "exact_normalized_name_and_source_state",
+          "geographic_note": "Entidad de escuela en la fuente; no residencia del sustentante",
+          "rate_interval95": [
+            54.99910584909185,
+            77.42944209553058
+          ]
+        },
+        {
+          "id": "distrito-federal-universidad-panamericana",
+          "name": "Universidad Panamericana",
+          "state": "CIUDAD DE MÉXICO",
+          "state_original": "DISTRITO FEDERAL",
+          "year": 2008,
+          "registered": null,
+          "examined": 43,
+          "selected": 33,
+          "score": 59.47,
+          "score_statistic": "mean",
+          "rate": 76.74418604651163,
+          "population": "mexicana",
+          "source_id": "academic-2008-e5c23427",
+          "page": null,
+          "original_values": [
+            "43",
+            "33",
+            "46.96",
+            "5.79",
+            "59.47"
+          ],
+          "score_comparable_group": null,
+          "rate_comparable_group": null,
+          "identity_status": "exact_normalized_name_and_source_state",
+          "geographic_note": "Entidad de escuela en la fuente; no residencia del sustentante",
+          "rate_interval95": [
+            62.25547970219143,
+            86.8463215206153
+          ]
+        },
+        {
+          "id": "sin-entidad-univ-panamericana",
+          "name": "UNIV. PANAMERICANA",
+          "state": null,
+          "state_original": null,
+          "year": 2009,
+          "registered": 40,
+          "examined": 39,
+          "selected": 34,
+          "score": 69.88,
+          "score_statistic": "mean",
+          "rate": 87.17948717948718,
+          "population": "mexicana",
+          "source_id": "academic-2009-c9b12e54",
+          "page": null,
+          "original_values": [
+            "40",
+            "39",
+            "34",
+            "62.47",
+            "7.41",
+            "69.88"
+          ],
+          "score_comparable_group": null,
+          "rate_comparable_group": null,
+          "identity_status": "exact_normalized_name_and_source_state",
+          "geographic_note": "Entidad de escuela en la fuente; no residencia del sustentante",
+          "rate_interval95": [
+            73.294256620255,
+            94.39718246302849
+          ]
+        },
+        {
+          "id": "distrito-federal-univ-panamericana",
+          "name": "UNIV. PANAMERICANA",
+          "state": "CIUDAD DE MÉXICO",
+          "state_original": "DISTRITO FEDERAL",
+          "year": 2010,
+          "registered": 37,
+          "examined": 37,
+          "selected": 30,
+          "score": 68.165,
+          "score_statistic": "mean",
+          "rate": 81.08108108108108,
+          "population": "mexicana",
+          "source_id": "academic-2010-c2f42701",
+          "page": null,
+          "original_values": [
+            "37",
+            "37",
+            "30",
+            "61.279",
+            "6.886",
+            "68.165"
+          ],
+          "score_comparable_group": null,
+          "rate_comparable_group": null,
+          "identity_status": "exact_normalized_name_and_source_state",
+          "geographic_note": "Entidad de escuela en la fuente; no residencia del sustentante",
+          "rate_interval95": [
+            65.79530307016206,
+            90.5200212696878
+          ]
+        },
+        {
+          "id": "distrito-federal-univ-panamericana",
+          "name": "UNIV. PANAMERICANA",
+          "state": "CIUDAD DE MÉXICO",
+          "state_original": "DISTRITO FEDERAL",
+          "year": 2011,
+          "registered": 42,
+          "examined": 40,
+          "selected": 31,
+          "score": 70.908,
+          "score_statistic": "mean",
+          "rate": 77.5,
+          "population": "mexicana",
+          "source_id": "academic-2011-5caadf3e",
+          "page": null,
+          "original_values": [
+            "42",
+            "40",
+            "31",
+            "63.298",
+            "7.610",
+            "70.908"
+          ],
+          "score_comparable_group": null,
+          "rate_comparable_group": null,
+          "identity_status": "exact_normalized_name_and_source_state",
+          "geographic_note": "Entidad de escuela en la fuente; no residencia del sustentante",
+          "rate_interval95": [
+            62.49690325769044,
+            87.68390867645905
+          ]
+        },
+        {
+          "id": "distrito-federal-univ-panamericana",
+          "name": "UNIV. PANAMERICANA",
+          "state": "CIUDAD DE MÉXICO",
+          "state_original": "DISTRITO FEDERAL",
+          "year": 2012,
+          "registered": 48,
+          "examined": 46,
+          "selected": 28,
+          "score": 69.072,
+          "score_statistic": "mean",
+          "rate": 60.869565217391305,
+          "population": "mexicana",
+          "source_id": "academic-2012-b24dfabf",
+          "page": null,
+          "original_values": [
+            "48",
+            "46",
+            "28",
+            "69.072"
+          ],
+          "score_comparable_group": null,
+          "rate_comparable_group": null,
+          "identity_status": "exact_normalized_name_and_source_state",
+          "geographic_note": "Entidad de escuela en la fuente; no residencia del sustentante",
+          "rate_interval95": [
+            46.45684323162115,
+            73.60677496217069
+          ]
+        },
+        {
+          "id": "distrito-federal-univ-panamericana",
+          "name": "UNIV. PANAMERICANA",
+          "state": "CIUDAD DE MÉXICO",
+          "state_original": "DISTRITO FEDERAL",
+          "year": 2013,
+          "registered": 41,
+          "examined": 39,
+          "selected": 32,
+          "score": 73.527,
+          "score_statistic": "mean",
+          "rate": 82.05128205128206,
+          "population": "mexicana",
+          "source_id": "academic-2013-42eeafb2",
+          "page": null,
+          "original_values": [
+            "41",
+            "39",
+            "32",
+            "73.527"
+          ],
+          "score_comparable_group": null,
+          "rate_comparable_group": null,
+          "identity_status": "exact_normalized_name_and_source_state",
+          "geographic_note": "Entidad de escuela en la fuente; no residencia del sustentante",
+          "rate_interval95": [
+            67.33195433811885,
+            91.02273452678071
+          ]
+        },
+        {
+          "id": "distrito-federal-univ-panamericana",
+          "name": "UNIV. PANAMERICANA",
+          "state": "CIUDAD DE MÉXICO",
+          "state_original": "DISTRITO FEDERAL",
+          "year": 2014,
+          "registered": 41,
+          "examined": 41,
+          "selected": 30,
+          "score": 73.062,
+          "score_statistic": "mean",
+          "rate": 73.17073170731707,
+          "population": "mexicana",
+          "source_id": "academic-2014-368739d9",
+          "page": null,
+          "original_values": [
+            "41",
+            "41",
+            "30",
+            "73.062"
+          ],
+          "score_comparable_group": null,
+          "rate_comparable_group": null,
+          "identity_status": "exact_normalized_name_and_source_state",
+          "geographic_note": "Entidad de escuela en la fuente; no residencia del sustentante",
+          "rate_interval95": [
+            58.0664668929238,
+            84.30503595218809
+          ]
+        },
+        {
+          "id": "distrito-federal-univ-panamericana",
+          "name": "UNIV. PANAMERICANA",
+          "state": "CIUDAD DE MÉXICO",
+          "state_original": "DISTRITO FEDERAL",
+          "year": 2015,
+          "registered": 52,
+          "examined": 49,
+          "selected": 32,
+          "score": 73.569,
+          "score_statistic": "mean",
+          "rate": 65.3061224489796,
+          "population": "mexicana",
+          "source_id": "academic-2015-58a23145",
+          "page": null,
+          "original_values": [
+            "52",
+            "49",
+            "32",
+            "73.569"
+          ],
+          "score_comparable_group": null,
+          "rate_comparable_group": null,
+          "identity_status": "exact_normalized_name_and_source_state",
+          "geographic_note": "Entidad de escuela en la fuente; no residencia del sustentante",
+          "rate_interval95": [
+            51.31119428697312,
+            77.07560716546077
+          ]
+        },
+        {
           "id": "ciudad-de-mexico-univ-panamericana",
           "name": "UNIV. PANAMERICANA",
           "state": "CIUDAD DE MÉXICO",
@@ -15370,7 +15808,73 @@
             77.86547112682342
           ]
         }
-      ]
+      ],
+      "identity_link": {
+        "id": "ciudad-de-mexico-univ-panamericana",
+        "name": "UNIV. PANAMERICANA",
+        "state": "CIUDAD DE MÉXICO",
+        "alias_ids": [
+          "ciudad-de-mexico-univ-panamericana",
+          "distrito-federal-univ-panamericana",
+          "distrito-federal-universidad-panamericana",
+          "sin-entidad-univ-panamericana"
+        ],
+        "years": [
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "sources": {
+          "academic-2023-1a3bd611": "bef3844a90d00cd101527c5c286212fa85e9c91fa9d1bbcac9ca365990464745",
+          "academic-2022-31357010": "dfcbdf6643670e89616eaed7ee94c2a568d99324e392de969a9e221a81732bc2",
+          "academic-2021-a232d49e": "aeef570f31bad6d806786c341cb1fe454e2e322974c6b1031df4bfbd148d99da",
+          "academic-2020-cf396692": "cf7389583b20990055c0fe8cbefb025ee197d6e573838699a2d29cf006de94d3",
+          "academic-2019-ac75a115": "0b9f7f7ac70707946340f3197cc5d3917f88fb80d22e76e4e6a101099f032597",
+          "academic-2018-95f41f3f": "0f9d5c41ecaba83004ff61f18411000e69686812033e78724df36b87de13d6fd",
+          "academic-2017-b1fe2160": "e0610256ab23efbdda7e91c82dc9d5e3653a482599f607d192605c045764ce39",
+          "academic-2016-11df3558": "bc7b864ba6447e36378582494560969cbe8baad8f79302d661998260e7e50a5c",
+          "academic-2015-58a23145": "6d81c5cf9b337b3ca857d922f8575f527ab4ed6dda64c87edfa7143b3f00df17",
+          "academic-2014-368739d9": "1ef7f88076f5b7e77439ff8104382fe6c02a5a620ffec870e22592d6037d8872",
+          "academic-2013-42eeafb2": "bd52f0afb76f9f6ebca511ab1cceaff30ca17cbda187cc00070b29a68d41b257",
+          "academic-2012-b24dfabf": "705bb1efdeecc0e7b7e17f0806f43d8d0369be73285128ea48bc89ea3c288e06",
+          "academic-2011-5caadf3e": "713aaec8095954c1a3dfa1662d7a31bab41e95053692d7dcf3a39f05a64393bb",
+          "academic-2010-c2f42701": "4022866a5b86166e54363d96c96f02fe799ab491dd5184da4ec05445923465ba",
+          "academic-2009-c9b12e54": "9e5c0909501c5769d33bf22727cff00aacab3dfc8cd7e347a2c3d236b7a40c13",
+          "academic-2008-e5c23427": "0492f9c8db125ccd3bd85a948c7618deddbd2b5dae3d8bf1e5a4eafab1d58a12",
+          "academic-2007-73cc0028": "b45efa900eea006b240ca2feaaead76547a73ed8137a4b50e9c10e59f0c60654",
+          "academic-2006-858fcb8d": "69a51732a73ef453d75a39dd49812014f5dc25b335f512621e7e3059c3d31427",
+          "academic-2005-f4b591bd": "7274c68958d99a93e803d73a3e39a1c6ad7ab225266daeae77a7fd1a3554cd0a",
+          "academic-2004-c22bc414": "8d736b68296521dba4059a43adcc623f3cab130a1762c65f1dff8e115e119433",
+          "academic-2003-a44e0702": "033763fe67a1b9141ac372fb0168829fc0d6ce27e96672739f6d5c4bde7590cd",
+          "academic-2002-b881fbcf": "6365a57b599d929b87db7d9b211bd4071abf8ac4d9f6897ca1612dcef3e853c0",
+          "academic-2024-b9814c4c": "4293c3b92792e932038fbbe20290b726d16bd9f89c5c4e0142cbf850f33d00a5",
+          "academic-2025-d601d64a": "0798eb1389a8b6c08482181bc752acc7c9c5e21dd41688a6f8554785160f1634"
+        },
+        "basis": "Vinculación explícita de Universidad Panamericana / UNIV. PANAMERICANA en los reportes académicos. Las filas de 2002–2008 y 2010–2015 están bajo Distrito Federal; 2016–2025 bajo Ciudad de México. En 2009 la fuente no publica entidad y la denominación aparece una sola vez. Perfil de procedencia institucional; no acredita identidad de campus ni equivalencia poblacional.",
+        "limitations": "La entidad de 2009 permanece ausente. La vinculación no equipara puntajes históricos ni acredita comparabilidad de tasas o continuidad de participantes y reglas.",
+        "review_date": "2026-10-31"
+      }
     },
     {
       "id": "ciudad-de-mexico-univ-west-hill-institute-s-c",
@@ -21899,197 +22403,6 @@
       ]
     },
     {
-      "id": "distrito-federal-univ-panamericana",
-      "name": "UNIV. PANAMERICANA",
-      "state": "CIUDAD DE MÉXICO",
-      "records": [
-        {
-          "id": "distrito-federal-univ-panamericana",
-          "name": "UNIV. PANAMERICANA",
-          "state": "CIUDAD DE MÉXICO",
-          "state_original": "DISTRITO FEDERAL",
-          "year": 2010,
-          "registered": 37,
-          "examined": 37,
-          "selected": 30,
-          "score": 68.165,
-          "score_statistic": "mean",
-          "rate": 81.08108108108108,
-          "population": "mexicana",
-          "source_id": "academic-2010-c2f42701",
-          "page": null,
-          "original_values": [
-            "37",
-            "37",
-            "30",
-            "61.279",
-            "6.886",
-            "68.165"
-          ],
-          "score_comparable_group": null,
-          "rate_comparable_group": null,
-          "identity_status": "exact_normalized_name_and_source_state",
-          "geographic_note": "Entidad de escuela en la fuente; no residencia del sustentante",
-          "rate_interval95": [
-            65.79530307016206,
-            90.5200212696878
-          ]
-        },
-        {
-          "id": "distrito-federal-univ-panamericana",
-          "name": "UNIV. PANAMERICANA",
-          "state": "CIUDAD DE MÉXICO",
-          "state_original": "DISTRITO FEDERAL",
-          "year": 2011,
-          "registered": 42,
-          "examined": 40,
-          "selected": 31,
-          "score": 70.908,
-          "score_statistic": "mean",
-          "rate": 77.5,
-          "population": "mexicana",
-          "source_id": "academic-2011-5caadf3e",
-          "page": null,
-          "original_values": [
-            "42",
-            "40",
-            "31",
-            "63.298",
-            "7.610",
-            "70.908"
-          ],
-          "score_comparable_group": null,
-          "rate_comparable_group": null,
-          "identity_status": "exact_normalized_name_and_source_state",
-          "geographic_note": "Entidad de escuela en la fuente; no residencia del sustentante",
-          "rate_interval95": [
-            62.49690325769044,
-            87.68390867645905
-          ]
-        },
-        {
-          "id": "distrito-federal-univ-panamericana",
-          "name": "UNIV. PANAMERICANA",
-          "state": "CIUDAD DE MÉXICO",
-          "state_original": "DISTRITO FEDERAL",
-          "year": 2012,
-          "registered": 48,
-          "examined": 46,
-          "selected": 28,
-          "score": 69.072,
-          "score_statistic": "mean",
-          "rate": 60.869565217391305,
-          "population": "mexicana",
-          "source_id": "academic-2012-b24dfabf",
-          "page": null,
-          "original_values": [
-            "48",
-            "46",
-            "28",
-            "69.072"
-          ],
-          "score_comparable_group": null,
-          "rate_comparable_group": null,
-          "identity_status": "exact_normalized_name_and_source_state",
-          "geographic_note": "Entidad de escuela en la fuente; no residencia del sustentante",
-          "rate_interval95": [
-            46.45684323162115,
-            73.60677496217069
-          ]
-        },
-        {
-          "id": "distrito-federal-univ-panamericana",
-          "name": "UNIV. PANAMERICANA",
-          "state": "CIUDAD DE MÉXICO",
-          "state_original": "DISTRITO FEDERAL",
-          "year": 2013,
-          "registered": 41,
-          "examined": 39,
-          "selected": 32,
-          "score": 73.527,
-          "score_statistic": "mean",
-          "rate": 82.05128205128206,
-          "population": "mexicana",
-          "source_id": "academic-2013-42eeafb2",
-          "page": null,
-          "original_values": [
-            "41",
-            "39",
-            "32",
-            "73.527"
-          ],
-          "score_comparable_group": null,
-          "rate_comparable_group": null,
-          "identity_status": "exact_normalized_name_and_source_state",
-          "geographic_note": "Entidad de escuela en la fuente; no residencia del sustentante",
-          "rate_interval95": [
-            67.33195433811885,
-            91.02273452678071
-          ]
-        },
-        {
-          "id": "distrito-federal-univ-panamericana",
-          "name": "UNIV. PANAMERICANA",
-          "state": "CIUDAD DE MÉXICO",
-          "state_original": "DISTRITO FEDERAL",
-          "year": 2014,
-          "registered": 41,
-          "examined": 41,
-          "selected": 30,
-          "score": 73.062,
-          "score_statistic": "mean",
-          "rate": 73.17073170731707,
-          "population": "mexicana",
-          "source_id": "academic-2014-368739d9",
-          "page": null,
-          "original_values": [
-            "41",
-            "41",
-            "30",
-            "73.062"
-          ],
-          "score_comparable_group": null,
-          "rate_comparable_group": null,
-          "identity_status": "exact_normalized_name_and_source_state",
-          "geographic_note": "Entidad de escuela en la fuente; no residencia del sustentante",
-          "rate_interval95": [
-            58.0664668929238,
-            84.30503595218809
-          ]
-        },
-        {
-          "id": "distrito-federal-univ-panamericana",
-          "name": "UNIV. PANAMERICANA",
-          "state": "CIUDAD DE MÉXICO",
-          "state_original": "DISTRITO FEDERAL",
-          "year": 2015,
-          "registered": 52,
-          "examined": 49,
-          "selected": 32,
-          "score": 73.569,
-          "score_statistic": "mean",
-          "rate": 65.3061224489796,
-          "population": "mexicana",
-          "source_id": "academic-2015-58a23145",
-          "page": null,
-          "original_values": [
-            "52",
-            "49",
-            "32",
-            "73.569"
-          ],
-          "score_comparable_group": null,
-          "rate_comparable_group": null,
-          "identity_status": "exact_normalized_name_and_source_state",
-          "geographic_note": "Entidad de escuela en la fuente; no residencia del sustentante",
-          "rate_interval95": [
-            51.31119428697312,
-            77.07560716546077
-          ]
-        }
-      ]
-    },
-    {
       "id": "distrito-federal-univ-west-hill-institute-s-c",
       "name": "UNIV. WEST HILL INSTITUTE S.C.",
       "state": "CIUDAD DE MÉXICO",
@@ -23539,235 +23852,6 @@
           "rate_interval95": [
             19.67703417619036,
             27.520356942111324
-          ]
-        }
-      ]
-    },
-    {
-      "id": "distrito-federal-universidad-panamericana",
-      "name": "Universidad Panamericana",
-      "state": "CIUDAD DE MÉXICO",
-      "records": [
-        {
-          "id": "distrito-federal-universidad-panamericana",
-          "name": "Universidad Panamericana",
-          "state": "CIUDAD DE MÉXICO",
-          "state_original": "DISTRITO FEDERAL",
-          "year": 2002,
-          "registered": 27,
-          "examined": 26,
-          "selected": 22,
-          "score": 56.16,
-          "score_statistic": "mean",
-          "rate": 84.61538461538461,
-          "population": "mexicana",
-          "source_id": "academic-2002-b881fbcf",
-          "page": null,
-          "original_values": [
-            "27",
-            "26",
-            "22",
-            "50.76",
-            "5.40",
-            "56.16"
-          ],
-          "score_comparable_group": null,
-          "rate_comparable_group": null,
-          "identity_status": "exact_normalized_name_and_source_state",
-          "geographic_note": "Entidad de escuela en la fuente; no residencia del sustentante",
-          "rate_interval95": [
-            66.4688006717871,
-            93.8499662764215
-          ]
-        },
-        {
-          "id": "distrito-federal-universidad-panamericana",
-          "name": "Universidad Panamericana",
-          "state": "CIUDAD DE MÉXICO",
-          "state_original": "DISTRITO Federal",
-          "year": 2003,
-          "registered": 37,
-          "examined": 37,
-          "selected": 27,
-          "score": 59.1,
-          "score_statistic": "median",
-          "rate": 72.97297297297297,
-          "population": "mexicana",
-          "source_id": "academic-2003-a44e0702",
-          "page": null,
-          "original_values": [
-            "37",
-            "37",
-            "27",
-            "51.00",
-            "8.40",
-            "59.10"
-          ],
-          "score_comparable_group": null,
-          "rate_comparable_group": null,
-          "identity_status": "exact_normalized_name_and_source_state",
-          "geographic_note": "Entidad de escuela en la fuente; no residencia del sustentante",
-          "rate_interval95": [
-            57.021831675286194,
-            84.60253848895066
-          ]
-        },
-        {
-          "id": "distrito-federal-universidad-panamericana",
-          "name": "Universidad Panamericana",
-          "state": "CIUDAD DE MÉXICO",
-          "state_original": "DISTRITO FEDERAL",
-          "year": 2004,
-          "registered": 34,
-          "examined": 32,
-          "selected": 18,
-          "score": 53.9,
-          "score_statistic": "median",
-          "rate": 56.25,
-          "population": "mexicana",
-          "source_id": "academic-2004-c22bc414",
-          "page": null,
-          "original_values": [
-            "34",
-            "32",
-            "18",
-            "46.43",
-            "7.80",
-            "53.90"
-          ],
-          "score_comparable_group": null,
-          "rate_comparable_group": null,
-          "identity_status": "exact_normalized_name_and_source_state",
-          "geographic_note": "Entidad de escuela en la fuente; no residencia del sustentante",
-          "rate_interval95": [
-            39.32559113685242,
-            71.83466888495926
-          ]
-        },
-        {
-          "id": "distrito-federal-universidad-panamericana",
-          "name": "Universidad Panamericana",
-          "state": "CIUDAD DE MÉXICO",
-          "state_original": "DISTRITO FEDERAL",
-          "year": 2005,
-          "registered": 49,
-          "examined": 48,
-          "selected": 21,
-          "score": 55.58,
-          "score_statistic": "median",
-          "rate": 43.75,
-          "population": "mexicana",
-          "source_id": "academic-2005-f4b591bd",
-          "page": null,
-          "original_values": [
-            "49",
-            "48",
-            "21",
-            "48.23",
-            "7.60",
-            "55.58"
-          ],
-          "score_comparable_group": null,
-          "rate_comparable_group": null,
-          "identity_status": "exact_normalized_name_and_source_state",
-          "geographic_note": "Entidad de escuela en la fuente; no residencia del sustentante",
-          "rate_interval95": [
-            30.701269040654562,
-            57.72498258017187
-          ]
-        },
-        {
-          "id": "distrito-federal-universidad-panamericana",
-          "name": "Universidad Panamericana",
-          "state": "CIUDAD DE MÉXICO",
-          "state_original": "DISTRITO FEDERAL",
-          "year": 2006,
-          "registered": 54,
-          "examined": 54,
-          "selected": 33,
-          "score": 61.7,
-          "score_statistic": "median",
-          "rate": 61.111111111111114,
-          "population": "mexicana",
-          "source_id": "academic-2006-858fcb8d",
-          "page": null,
-          "original_values": [
-            "54",
-            "54",
-            "33",
-            "53.93",
-            "8.10",
-            "61.70"
-          ],
-          "score_comparable_group": null,
-          "rate_comparable_group": null,
-          "identity_status": "exact_normalized_name_and_source_state",
-          "geographic_note": "Entidad de escuela en la fuente; no residencia del sustentante",
-          "rate_interval95": [
-            47.78829853820806,
-            72.95806617088321
-          ]
-        },
-        {
-          "id": "distrito-federal-universidad-panamericana",
-          "name": "Universidad Panamericana",
-          "state": "CIUDAD DE MÉXICO",
-          "state_original": "DISTRITO FEDERAL",
-          "year": 2007,
-          "registered": null,
-          "examined": 64,
-          "selected": 43,
-          "score": 56.49,
-          "score_statistic": "mean",
-          "rate": 67.1875,
-          "population": "mexicana",
-          "source_id": "academic-2007-73cc0028",
-          "page": null,
-          "original_values": [
-            "64",
-            "43",
-            "37.61",
-            "5.47",
-            "56.49"
-          ],
-          "score_comparable_group": null,
-          "rate_comparable_group": null,
-          "identity_status": "exact_normalized_name_and_source_state",
-          "geographic_note": "Entidad de escuela en la fuente; no residencia del sustentante",
-          "rate_interval95": [
-            54.99910584909185,
-            77.42944209553058
-          ]
-        },
-        {
-          "id": "distrito-federal-universidad-panamericana",
-          "name": "Universidad Panamericana",
-          "state": "CIUDAD DE MÉXICO",
-          "state_original": "DISTRITO FEDERAL",
-          "year": 2008,
-          "registered": null,
-          "examined": 43,
-          "selected": 33,
-          "score": 59.47,
-          "score_statistic": "mean",
-          "rate": 76.74418604651163,
-          "population": "mexicana",
-          "source_id": "academic-2008-e5c23427",
-          "page": null,
-          "original_values": [
-            "43",
-            "33",
-            "46.96",
-            "5.79",
-            "59.47"
-          ],
-          "score_comparable_group": null,
-          "rate_comparable_group": null,
-          "identity_status": "exact_normalized_name_and_source_state",
-          "geographic_note": "Entidad de escuela en la fuente; no residencia del sustentante",
-          "rate_interval95": [
-            62.25547970219143,
-            86.8463215206153
           ]
         }
       ]
@@ -59753,45 +59837,6 @@
           "rate_interval95": [
             18.230227922078456,
             38.0912484285662
-          ]
-        }
-      ]
-    },
-    {
-      "id": "sin-entidad-univ-panamericana",
-      "name": "UNIV. PANAMERICANA",
-      "state": null,
-      "records": [
-        {
-          "id": "sin-entidad-univ-panamericana",
-          "name": "UNIV. PANAMERICANA",
-          "state": null,
-          "state_original": null,
-          "year": 2009,
-          "registered": 40,
-          "examined": 39,
-          "selected": 34,
-          "score": 69.88,
-          "score_statistic": "mean",
-          "rate": 87.17948717948718,
-          "population": "mexicana",
-          "source_id": "academic-2009-c9b12e54",
-          "page": null,
-          "original_values": [
-            "40",
-            "39",
-            "34",
-            "62.47",
-            "7.41",
-            "69.88"
-          ],
-          "score_comparable_group": null,
-          "rate_comparable_group": null,
-          "identity_status": "exact_normalized_name_and_source_state",
-          "geographic_note": "Entidad de escuela en la fuente; no residencia del sustentante",
-          "rate_interval95": [
-            73.294256620255,
-            94.39718246302849
           ]
         }
       ]

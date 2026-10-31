@@ -82,3 +82,6 @@ MIT se aplica al código original; las fuentes y cartografía conservan sus dere
 ## Tendencias actualizadas
 
 `#/predictions` y `#/lab` comparten el explorador de series y elegibilidad. La cobertura se genera desde los datos actuales: académicos 2001–2025, especialidades 2022–2025 y oferta institucional 2023–2025. Los filtros se guardan en la URL. `pipeline/trends.py` se ejecuta automáticamente con la partición de datos. El laboratorio de especialidades y simulador permanece en `#/specialty-lab`.
+
+
+La vinculación documental de Panamericana reúne 24 ediciones (2002–2025) en un perfil. Las 471 claves originales se conservan en las filas y se representan actualmente en 468 perfiles. Véase [revisión histórica](docs/panamericana-history-review.md) y el registro explícito `data/university_identity_links.json`. La vinculación no acredita comparabilidad de tasas ni equiparación de puntajes.

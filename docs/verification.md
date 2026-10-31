@@ -80,3 +80,13 @@ La consulta de lectura `git ls-remote https://github.com/doctordatamx/enarmwatch
 - Modo estricto y modo exploratorio comprobados en navegador: el estricto conserva los tres bloqueos; el exploratorio muestra dos curvas y mantiene el pronóstico bloqueado con 10/14 ediciones.
 - Pruebas de la separación entre modos, falta de mutación de comparabilidad, controles de huecos y valores ausentes.
 - Captura: `university-models-enabled.jpg`.
+
+## Recuperación histórica de Panamericana
+
+- 24 filas consecutivas verificadas, 2002–2025; 2004: 32 sustentantes, 18 seleccionados, tasa 56.25 %.
+- Cuatro claves se vinculan mediante registro explícito con años, identificadores y SHA-256. Los originales no se modifican; entidad 2009 permanece ausente.
+- 2,528 filas académicas y sus totales anuales sin cambio; 471 claves originales representadas en 468 perfiles, tras vincular las cuatro variantes de Panamericana en uno.
+- Regeneradas particiones académicas, catálogo, tendencias, diagnósticos y controles longitudinales. Integrado en la reconstrucción normal del pipeline.
+- El requisito de longitud del pronóstico pasa con 24/14 ediciones; no se aprueba implícitamente comparabilidad poblacional ni se publica una proyección sin validación.
+- Perfil 2004 verificado en navegador; captura `panamericana-2004-history.jpg`.
+- 59 pruebas aprobadas; compilación y validación estática aprobadas.

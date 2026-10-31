@@ -1,0 +1,71 @@
+{
+  "version": "1.0.0",
+  "review_date": "2026-10-31",
+  "groups": [
+    {
+      "id": "ciudad-de-mexico-univ-panamericana",
+      "name": "UNIV. PANAMERICANA",
+      "state": "CIUDAD DE MÉXICO",
+      "alias_ids": [
+        "ciudad-de-mexico-univ-panamericana",
+        "distrito-federal-univ-panamericana",
+        "distrito-federal-universidad-panamericana",
+        "sin-entidad-univ-panamericana"
+      ],
+      "years": [
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "sources": {
+        "academic-2023-1a3bd611": "bef3844a90d00cd101527c5c286212fa85e9c91fa9d1bbcac9ca365990464745",
+        "academic-2022-31357010": "dfcbdf6643670e89616eaed7ee94c2a568d99324e392de969a9e221a81732bc2",
+        "academic-2021-a232d49e": "aeef570f31bad6d806786c341cb1fe454e2e322974c6b1031df4bfbd148d99da",
+        "academic-2020-cf396692": "cf7389583b20990055c0fe8cbefb025ee197d6e573838699a2d29cf006de94d3",
+        "academic-2019-ac75a115": "0b9f7f7ac70707946340f3197cc5d3917f88fb80d22e76e4e6a101099f032597",
+        "academic-2018-95f41f3f": "0f9d5c41ecaba83004ff61f18411000e69686812033e78724df36b87de13d6fd",
+        "academic-2017-b1fe2160": "e0610256ab23efbdda7e91c82dc9d5e3653a482599f607d192605c045764ce39",
+        "academic-2016-11df3558": "bc7b864ba6447e36378582494560969cbe8baad8f79302d661998260e7e50a5c",
+        "academic-2015-58a23145": "6d81c5cf9b337b3ca857d922f8575f527ab4ed6dda64c87edfa7143b3f00df17",
+        "academic-2014-368739d9": "1ef7f88076f5b7e77439ff8104382fe6c02a5a620ffec870e22592d6037d8872",
+        "academic-2013-42eeafb2": "bd52f0afb76f9f6ebca511ab1cceaff30ca17cbda187cc00070b29a68d41b257",
+        "academic-2012-b24dfabf": "705bb1efdeecc0e7b7e17f0806f43d8d0369be73285128ea48bc89ea3c288e06",
+        "academic-2011-5caadf3e": "713aaec8095954c1a3dfa1662d7a31bab41e95053692d7dcf3a39f05a64393bb",
+        "academic-2010-c2f42701": "4022866a5b86166e54363d96c96f02fe799ab491dd5184da4ec05445923465ba",
+        "academic-2009-c9b12e54": "9e5c0909501c5769d33bf22727cff00aacab3dfc8cd7e347a2c3d236b7a40c13",
+        "academic-2008-e5c23427": "0492f9c8db125ccd3bd85a948c7618deddbd2b5dae3d8bf1e5a4eafab1d58a12",
+        "academic-2007-73cc0028": "b45efa900eea006b240ca2feaaead76547a73ed8137a4b50e9c10e59f0c60654",
+        "academic-2006-858fcb8d": "69a51732a73ef453d75a39dd49812014f5dc25b335f512621e7e3059c3d31427",
+        "academic-2005-f4b591bd": "7274c68958d99a93e803d73a3e39a1c6ad7ab225266daeae77a7fd1a3554cd0a",
+        "academic-2004-c22bc414": "8d736b68296521dba4059a43adcc623f3cab130a1762c65f1dff8e115e119433",
+        "academic-2003-a44e0702": "033763fe67a1b9141ac372fb0168829fc0d6ce27e96672739f6d5c4bde7590cd",
+        "academic-2002-b881fbcf": "6365a57b599d929b87db7d9b211bd4071abf8ac4d9f6897ca1612dcef3e853c0",
+        "academic-2024-b9814c4c": "4293c3b92792e932038fbbe20290b726d16bd9f89c5c4e0142cbf850f33d00a5",
+        "academic-2025-d601d64a": "0798eb1389a8b6c08482181bc752acc7c9c5e21dd41688a6f8554785160f1634"
+      },
+      "basis": "Vinculación explícita de Universidad Panamericana / UNIV. PANAMERICANA en los reportes académicos. Las filas de 2002–2008 y 2010–2015 están bajo Distrito Federal; 2016–2025 bajo Ciudad de México. En 2009 la fuente no publica entidad y la denominación aparece una sola vez. Perfil de procedencia institucional; no acredita identidad de campus ni equivalencia poblacional.",
+      "limitations": "La entidad de 2009 permanece ausente. La vinculación no equipara puntajes históricos ni acredita comparabilidad de tasas o continuidad de participantes y reglas."
+    }
+  ]
+}

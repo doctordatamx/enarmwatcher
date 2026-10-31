@@ -35,6 +35,11 @@ def robust_trend(rows, field='minimum'):
     rows=sorted(rows,key=lambda r:r['year'])
     ok, reason = eligible(rows, field=field)
     if not ok: return {'available':False,'reason':reason}
+    return descriptive_trend(rows,field)
+
+def descriptive_trend(rows,field='minimum'):
+    """Unadjusted fit only; callers must state scope and validate inputs."""
+    rows=sorted(rows,key=lambda r:r['year'])
     x = np.array([r['year'] for r in rows]); y = np.array([r[field] for r in rows])
     fit = stats.theilslopes(y,x,alpha=.95)
     changes = [rows[i][field]-rows[i-1][field] for i in range(1,len(rows))]
@@ -44,6 +49,11 @@ def segmented(rows, field='minimum'):
     rows=sorted(rows,key=lambda r:r['year'])
     ok, reason = eligible(rows, minimum=10, field=field)
     if not ok: return {'available':False,'reason':reason}
+    return descriptive_segmented(rows,field)
+
+def descriptive_segmented(rows,field='minimum'):
+    """Exploratory curve fit; does not establish a comparable population."""
+    rows=sorted(rows,key=lambda r:r['year'])
     x = np.array([r['year'] for r in rows],dtype=float); x -= x[0]
     y = np.array([r[field] for r in rows]); n=len(y)
     base=np.column_stack([np.ones(n),x]); b=np.linalg.lstsq(base,y,rcond=None)[0]

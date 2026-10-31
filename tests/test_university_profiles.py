@@ -16,6 +16,11 @@ class UniversityProfileTests(unittest.TestCase):
         for model in result['models'].values():self.assertFalse(model['available'])
         self.assertTrue(result['models']['segmented']['checks'][0]['passed'])
         self.assertFalse(result['models']['forecast']['checks'][0]['passed'])
+        self.assertTrue(result['exploratory_models']['trend']['available'])
+        self.assertTrue(result['exploratory_models']['segmented']['available'])
+        self.assertFalse(result['exploratory_models']['forecast']['available'])
+        self.assertFalse(result['exploratory_models']['trend']['comparability_approved'])
+        self.assertTrue(all(r['rate_comparable_group'] is None for r in u['records']))
 
     def test_changes_do_not_bridge_gaps_or_missing_values(self):
         def row(year,rate):return {'year':year,'rate':rate,'examined':20,'source_id':'fixture','rate_comparable_group':None}
@@ -25,6 +30,8 @@ class UniversityProfileTests(unittest.TestCase):
         self.assertIsNone(result['changes'][1]['examined_change'])
         self.assertIsNone(result['changes'][2]['rate_change_pp'])
         self.assertEqual(result['changes'][2]['examined_change'],0)
+        self.assertFalse(result['exploratory_models']['trend']['available'])
+        self.assertFalse(result['exploratory_models']['segmented']['available'])
 
     def test_public_diagnostics_cover_every_identity(self):
         profiles=json.loads((ROOT/'public/data/academic-profiles.json').read_text(encoding='utf8'))

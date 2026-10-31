@@ -45,11 +45,29 @@ def profile_analysis(records):
             'rate_change_pp':row['rate']-previous['rate'] if previous and row['rate'] is not None and previous['rate'] is not None else None,
             'examined_change':row['examined']-previous['examined'] if previous else None})
     rates=[observation(r['year'],r['rate'],[r['source_id']],r['rate_comparable_group']) for r in records]
+    strict_models=series(rates,'%',True)['models']
+    descriptive=exploratory_rate_models(rates,strict_models)
     return {'years':years,'missing_years':sorted(set(range(min(years),max(years)+1))-set(years)),
         'missing_rate_years':[r['year'] for r in records if r['rate'] is None],
         'unreviewed_years':[r['year'] for r in records if r['rate_comparable_group'] is None],
-        'changes':changes,'models':series(rates,'%',True)['models'],
+        'changes':changes,'models':strict_models,'exploratory_models':descriptive,
         'warning':'Diferencias aritméticas entre filas publicadas. No ajustan cambios de participantes, reglas o identidad institucional; no estiman mejora, deterioro ni calidad causal.'}
+
+def exploratory_rate_models(rates,strict_models):
+    """Curve fits of published percentages, without granting comparability."""
+    from .analytics import descriptive_trend,descriptive_segmented
+    from .trends import model_checks
+    results={}
+    for key,minimum,fit in [('trend',6,descriptive_trend),('segmented',10,descriptive_segmented)]:
+        checks=[c for c in model_checks(rates,minimum) if c['id']!='comparability']
+        numeric=all(r['value'] is None or (isinstance(r['value'],(int,float)) and math.isfinite(r['value']) and 0<=r['value']<=100) for r in rates)
+        checks.append({'id':'domain','passed':numeric,'detail':'Tasas numéricas dentro de 0–100 %.' if numeric else 'Tasas fuera del dominio válido.'})
+        ok=all(c['passed'] for c in checks)
+        result=fit(rates,field='value') if ok else {'available':False,'reason':'Se requiere longitud suficiente, tasas completas y años consecutivos para el ajuste exploratorio.'}
+        results[key]={**result,'checks':checks,'mode':'exploratory_unadjusted','comparability_approved':False,
+            'warning':'Ajuste de porcentajes publicados por edición. Composición y reglas no ajustadas; no acredita equivalencia poblacional ni cambio de calidad institucional.'}
+    results['forecast']=strict_models['forecast']
+    return results
 
 def main():
     import json

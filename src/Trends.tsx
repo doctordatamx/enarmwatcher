@@ -5,15 +5,15 @@ import {Chart} from './Chart';
 import {exportJSON,exportRows} from './platformExport';
 
 type Observation={year:number;value:number|null;source_ids:string[];note:string|null};
-type Model={available:boolean;reason?:string;checks:{id:string;passed:boolean;detail:string}[];[key:string]:unknown};
+export type Model={available:boolean;reason?:string;checks:{id:string;passed:boolean;detail:string}[];[key:string]:unknown};
 type Review={id:string;date:string;scope:string;evidence:string;limitations:string;source_ids:string[]};
-type Series={reviewed_block?:(Series&{review:Review});label:string;unit:string;bounded:boolean;records:Observation[];coverage:{editions:number;observed:number;missing_years:number[];years:number[]};models:Record<string,Model>};
+export type Series={reviewed_block?:(Series&{review:Review});label:string;unit:string;bounded:boolean;records:Observation[];coverage:{editions:number;observed:number;missing_years:number[];years:number[]};models:Record<string,Model>};
 type Payload={entities:{id:string;name:string;series:Record<string,Series>}[];sources:{id:string;year:number;url:string;sha256:string}[];audit_date:string};
 type Index={datasets:Record<string,{label:string;first_year:number;last_year:number;editions:number;records:number}>;warning:string};
 function useJSON<T>(name:string){const [state,setState]=useState<{name:string;data:T}|null>(null);const [error,setError]=useState('');useEffect(()=>{const controller=new AbortController();setError('');fetch(`${import.meta.env.BASE_URL}data/${name}.json`,{signal:controller.signal}).then(r=>{if(!r.ok)throw Error('No se pudo cargar la información de tendencias.');return r.json();}).then(data=>setState({name,data})).catch(e=>{if(e.name!=='AbortError')setError(String(e));});return()=>controller.abort();},[name]);return {data:state?.name===name?state.data:null,error};}
 const fmt=(n:number|null,d=2)=>n==null?'No disponible':n.toLocaleString('es-MX',{maximumFractionDigits:d});
 const labels:Record<string,string>={trend:'Tendencia robusta · Theil–Sen',segmented:'Regresión segmentada',forecast:'Predicción exploratoria'};
-function ModelChart({id,result,series,dark}:{id:string;result:Model;series:Series;dark:boolean}){
+export function ModelChart({id,result,series,dark}:{id:string;result:Model;series:Series;dark:boolean}){
  if(!result.available)return null;
  const observed=series.records.map(r=>[r.year,r.value]);
  const fitted=(result.fitted as {year:number;value:number}[]|undefined)||[];
@@ -26,7 +26,7 @@ function ModelChart({id,result,series,dark}:{id:string;result:Model;series:Serie
   const interval=result.interval90 as number[];
   plotted.push({name:'Pronóstico exploratorio',type:'scatter',symbol:'diamond',symbolSize:13,itemStyle:{color:'#b67932'},data:[[result.year,result.point]]},{name:'Intervalo predictivo 90 %',type:'line',symbol:'rect',symbolSize:8,lineStyle:{color:'#b67932',width:3},data:[[result.year,interval[0]],[result.year,interval[1]]]});
  }
- return <><Chart dark={dark} label={`${labels[id]}. Observaciones y ${id==='forecast'?'validación temporal, pronóstico e intervalo predictivo':'ajuste dentro del periodo observado'}.`} option={{...base,series:plotted} as EChartsOption}/><p className="chart-note">{id==='forecast'?'El intervalo predictivo es empírico y exploratorio; no garantiza cobertura futura.':id==='trend'?'La línea muestra el ajuste Theil–Sen dentro del bloque revisado. El intervalo de confianza informado corresponde a la pendiente; no es una banda predictiva.':'Ajuste continuo con bisagra; el punto de cambio es exploratorio y no implica causalidad.'}</p></>;
+ return <><Chart dark={dark} label={`${labels[id]}. Observaciones y ${id==='forecast'?'validación temporal, pronóstico e intervalo predictivo':'ajuste dentro del periodo observado'}.`} option={{...base,series:plotted} as EChartsOption}/><p className="chart-note">{id==='forecast'?'El intervalo predictivo es empírico y exploratorio; no garantiza cobertura futura.':id==='trend'?'La línea muestra el ajuste Theil–Sen dentro del periodo mostrado. El intervalo de confianza informado corresponde a la pendiente; no es una banda predictiva.':'Ajuste continuo con bisagra; el punto de cambio es exploratorio y no implica causalidad.'}</p></>;
 }
 export function Trends({params,update,dark}:{params:URLSearchParams;update:(key:string,value:string)=>void;dark:boolean}){
  const requested=params.get('scope')||'national';const scope=['national','universities','specialties','receiving'].includes(requested)?requested:'national';

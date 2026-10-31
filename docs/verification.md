@@ -71,3 +71,12 @@ La consulta de lectura `git ls-remote https://github.com/doctordatamx/enarmwatch
 - JSON de diagnóstico con registros y fuentes descargable por institución.
 - 57 pruebas aprobadas; compilación y verificación estática aprobadas. Navegador: gráficas revisadas y sin desbordamiento horizontal a 360 px.
 - Capturas: `university-analysis.jpg`, `trends-theil-sen-chart.jpg`.
+
+## Ajustes exploratorios universitarios
+
+- Habilitados Theil–Sen y regresión continua con bisagra sobre tasas publicadas, con los mínimos de seis y diez ediciones, valores completos, dominio 0–100 y años consecutivos.
+- Separados de los modelos que exigen comparabilidad acreditada. Los cálculos exploratorios no modifican los grupos de comparabilidad ni habilitan pronósticos.
+- En Panamericana se preserva explícitamente la diferencia de encabezados entre mexicanos civiles (2016) y categoría mexicana (2017–2025). Los ajustes no corrigen composición, reglas ni dependencia temporal.
+- Modo estricto y modo exploratorio comprobados en navegador: el estricto conserva los tres bloqueos; el exploratorio muestra dos curvas y mantiene el pronóstico bloqueado con 10/14 ediciones.
+- Pruebas de la separación entre modos, falta de mutación de comparabilidad, controles de huecos y valores ausentes.
+- Captura: `university-models-enabled.jpg`.

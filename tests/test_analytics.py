@@ -37,6 +37,15 @@ class AnalyticsTests(unittest.TestCase):
         r=rows();r[4]['minimum']=99
         self.assertAlmostEqual(robust_trend(r)['slope'],.2)
         self.assertAlmostEqual(robust_trend(list(reversed(r)))['slope'],.2)
+    def test_fitted_plot_uses_model_and_observed_years_only(self):
+        r=rows();r[4]['minimum']=99
+        fit=robust_trend(list(reversed(r)))
+        self.assertEqual([p['year'] for p in fit['fitted']],[p['year'] for p in r])
+        for point in fit['fitted']:
+            self.assertAlmostEqual(point['value'],fit['intercept']+fit['slope']*point['year'])
+        piecewise=segmented(r)
+        self.assertEqual(len(piecewise['fitted']),len(r))
+        self.assertEqual(piecewise['fitted'][-1]['year'],r[-1]['year'])
     def test_segmented_detects_hinge(self):
         r=rows(20)
         for i,row in enumerate(r): row['minimum']=45+.1*i+max(i-10,0)*1.5

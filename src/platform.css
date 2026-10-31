@@ -7,3 +7,5 @@
 .eligibility-checks{list-style:none;padding:0;display:grid;gap:12px;font-size:11px;line-height:1.7}.eligibility-checks li{display:flex;gap:9px;align-items:flex-start}.eligibility-checks svg{flex-shrink:0;margin-top:2px}.eligibility-checks .passed svg{color:var(--teal)}.eligibility-checks .pending svg{color:var(--gold)}
 
 .trend-coverage strong{font-size:25px}@media(max-width:767px){.trend-coverage strong{font-size:19px}}
+
+.university-analysis,.university-analysis .dictionary{min-width:0;max-width:100%}.university-analysis .panel{min-width:0;overflow-wrap:anywhere}.university-analysis .metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.university-analysis .chart-wrap{min-width:0;max-width:100%}

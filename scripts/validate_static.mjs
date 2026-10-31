@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 const html=await fs.readFile('dist/index.html','utf8');
 assert.match(html,/\/enarmwatcher\/assets\//);
 assert.match(html,/\/enarmwatcher\/manifest\.webmanifest/);
-for(const name of ['national','academic','receiving','atlas','platform-sources','research','receiving-analysis','academic-longitudinal','catalogue','specialties','trends-index','trends-national','trends-universities','trends-specialties','trends-receiving']){
+for(const name of ['national','academic','receiving','atlas','platform-sources','research','receiving-analysis','academic-longitudinal','academic-profiles','catalogue','specialties','trends-index','trends-national','trends-universities','trends-specialties','trends-receiving']){
  const data=JSON.parse(await fs.readFile(`dist/data/${name}.json`,'utf8'));assert.equal(typeof data,'object');
 }
 const geo=JSON.parse(await fs.readFile('dist/data/mexico-states.geojson','utf8'));assert.equal(geo.features.length,32);

@@ -38,7 +38,7 @@ def robust_trend(rows, field='minimum'):
     x = np.array([r['year'] for r in rows]); y = np.array([r[field] for r in rows])
     fit = stats.theilslopes(y,x,alpha=.95)
     changes = [rows[i][field]-rows[i-1][field] for i in range(1,len(rows))]
-    return {'available':True,'method':'Theil–Sen','slope':float(fit.slope),'slope_ci':[float(fit.low_slope),float(fit.high_slope)],'sd':float(np.std(y,ddof=1)),'changes':changes,'n':len(rows)}
+    return {'available':True,'method':'Theil–Sen','slope':float(fit.slope),'intercept':float(fit.intercept),'fitted':[{'year':int(year),'value':float(fit.intercept+fit.slope*year)} for year in x],'slope_ci':[float(fit.low_slope),float(fit.high_slope)],'sd':float(np.std(y,ddof=1)),'changes':changes,'n':len(rows)}
 
 def segmented(rows, field='minimum'):
     rows=sorted(rows,key=lambda r:r['year'])
@@ -55,7 +55,7 @@ def segmented(rows, field='minimum'):
         bic=n*math.log(max(float(np.sum((y-design@coef)**2))/n,1e-12))+4*math.log(n)
         candidates.append((bic,k,coef))
     bic,k,coef=min(candidates,key=lambda a:a[0])
-    return {'available':True,'method':'Regresión continua con bisagra; búsqueda exploratoria BIC','candidate_year':rows[k]['year'],'bic_gain':base_bic-bic,'supported':bool(base_bic-bic>6),'slopes':[float(coef[1]),float(coef[1]+coef[2])],'warning':'Punto exploratorio, sin interpretación causal; sensibilidad a longitud mínima de segmentos.'}
+    return {'available':True,'method':'Regresión continua con bisagra; búsqueda exploratoria BIC','candidate_year':rows[k]['year'],'bic_gain':base_bic-bic,'supported':bool(base_bic-bic>6),'slopes':[float(coef[1]),float(coef[1]+coef[2])],'fitted':[{'year':r['year'],'value':float(value)} for r,value in zip(rows,np.column_stack([base,np.maximum(x-x[k],0)])@coef)],'warning':'Punto exploratorio, sin interpretación causal; sensibilidad a longitud mínima de segmentos.'}
 
 def forecast(rows, field='minimum'):
     ok, reason = eligible(rows, minimum=14, field=field)

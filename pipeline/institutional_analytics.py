@@ -31,12 +31,34 @@ def cross_section(rows):
     else:decomposition=None
     return {'available':True,'n':len(valid),'spearman':rho,'pearson':pearson,'weighted_rate':weighted_mean,'rankings':[{'id':r['id'],'rank':float(rank),'percentile':float(100*(len(valid)-rank)/(len(valid)-1))} for r,rank in zip(valid,ranks)],'pareto_ids':frontier,'concentration_examined':concentration(x),'concentration_selected':concentration([r['selected'] for r in valid]),'variance_decomposition':decomposition,'pooling':partial_pooling(valid),'warning':'Asociación ecológica dentro de una edición. El denominador compartido puede inducir asociación volumen–tasa; no estima probabilidad individual ni valor agregado causal.'}
 
+def profile_analysis(records):
+    """Arithmetic descriptions of published rows, without longitudinal inference."""
+    from .trends import observation,series
+    records=sorted(records,key=lambda r:r['year'])
+    years=[r['year'] for r in records]
+    if not years:return {'years':[],'missing_years':[],'changes':[],'models':{}}
+    lookup={r['year']:r for r in records}
+    changes=[]
+    for row in records:
+        previous=lookup.get(row['year']-1)
+        changes.append({'year':row['year'],'previous_year':previous['year'] if previous else None,
+            'rate_change_pp':row['rate']-previous['rate'] if previous and row['rate'] is not None and previous['rate'] is not None else None,
+            'examined_change':row['examined']-previous['examined'] if previous else None})
+    rates=[observation(r['year'],r['rate'],[r['source_id']],r['rate_comparable_group']) for r in records]
+    return {'years':years,'missing_years':sorted(set(range(min(years),max(years)+1))-set(years)),
+        'missing_rate_years':[r['year'] for r in records if r['rate'] is None],
+        'unreviewed_years':[r['year'] for r in records if r['rate_comparable_group'] is None],
+        'changes':changes,'models':series(rates,'%',True)['models'],
+        'warning':'Diferencias aritméticas entre filas publicadas. No ajustan cambios de participantes, reglas o identidad institucional; no estiman mejora, deterioro ni calidad causal.'}
+
 def main():
     import json
     from .ingest import ROOT
     data=json.loads((ROOT/'public/data/platform.json').read_text(encoding='utf8'))
     out={'version':'2.0.0','years':data['academic_years'],'results':{str(y):cross_section([r for r in data['academic_records'] if r['year']==y]) for y in data['academic_years']}}
     (ROOT/'public/data/research.json').write_text(json.dumps(out,ensure_ascii=False,separators=(',',':'),allow_nan=False),encoding='utf8')
+    profiles={'version':'1.0.0','institutions':{u['id']:profile_analysis(u['records']) for u in data['universities']}}
+    (ROOT/'public/data/academic-profiles.json').write_text(json.dumps(profiles,ensure_ascii=False,separators=(',',':'),allow_nan=False),encoding='utf8')
     from .analytics import robust_trend,volatility,segmented,forecast,convergence,rank_stability,longitudinal_clusters
     series={u['id']:[dict(r,minimum=r['rate'],population='mexicana',stage='academic-published',comparable_group=r['rate_comparable_group']) for r in u['records']] for u in data['universities']}
     longitudinal={'version':'2.0.0','field':'rate','unit':'porcentaje','special_note':'El campo minimum es un adaptador interno del motor genérico; aquí representa tasa institucional, no umbral. No se aplica equiparación implícita.','institutions':{id:{'trend':robust_trend(rows),'volatility':volatility(rows),'segmented':segmented(rows),'forecast':forecast(rows)} for id,rows in series.items()},'convergence':convergence(series),'rank_stability':rank_stability(series),'clusters':longitudinal_clusters(series)}

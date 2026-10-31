@@ -59,3 +59,15 @@ La consulta de lectura `git ls-remote https://github.com/doctordatamx/enarmwatch
 - Selector conserva acceso al historial 2001–2025 sin acreditar comparabilidad del bloque completo.
 - Segmentación y pronóstico del bloque revisado siguen bloqueados por longitud; no se publica una proyección.
 - 53 pruebas aprobadas; compilación y validación estática aprobadas. Captura: `trends-reviewed-block.jpg`.
+
+## Gráficas de modelos y perfiles universitarios
+
+- Tendencia habilitada: puntos observados y ajuste Theil–Sen dentro del periodo revisado; exportación PNG/SVG. La incertidumbre de pendiente no se representa como intervalo predictivo.
+- Visualizaciones de segmentación y pronóstico condicionadas a modelos disponibles; no se dibujan proyecciones de modelos bloqueados.
+- Sustituido el aviso fijo del perfil universitario por diagnóstico específico para las 471 claves normalizadas de procedencia.
+- Gráficas de intervalos Wilson, denominadores y seleccionados, y diferencias aritméticas entre ediciones consecutivas. No se cruzan huecos ni se imputan valores faltantes.
+- Rango y percentil limitados al universo completo de la edición seleccionada; sin interpretación de movilidad longitudinal o calidad causal.
+- Panamericana 2025: diferencia respecto de 2024 de -9 sustentantes y -12.5510204 puntos porcentuales; 10 ediciones 2016–2025. La longitud habilita el requisito de segmentación, pero la comparabilidad institucional sigue pendiente.
+- JSON de diagnóstico con registros y fuentes descargable por institución.
+- 57 pruebas aprobadas; compilación y verificación estática aprobadas. Navegador: gráficas revisadas y sin desbordamiento horizontal a 360 px.
+- Capturas: `university-analysis.jpg`, `trends-theil-sen-chart.jpg`.

@@ -50,3 +50,12 @@ La consulta de lectura `git ls-remote https://github.com/doctordatamx/enarmwatch
 - 52 pruebas aprobadas; compilación y comprobación estática de subruta y particiones aprobadas.
 - Navegador: carga de las nuevas series, cambio de conjunto e indicador y ausencia de desbordamiento horizontal a 360 px.
 - Evidencia visual: `trends-predictions-desktop.jpg`.
+
+## Revisión acotada de comparabilidad
+
+- Conteo agregado de sustentantes de categoría mexicana, bloque 2017–2025, revisado contra los nueve reportes oficiales preservados. Definición y límites en `trends-comparability-review.md`.
+- Revisión vinculada a identificadores y SHA-256; no se extiende automáticamente a nuevos documentos o indicadores.
+- Tendencia Theil–Sen calculada y verificada en navegador. Intervalo de confianza incluye cero y la interfaz lo comunica.
+- Selector conserva acceso al historial 2001–2025 sin acreditar comparabilidad del bloque completo.
+- Segmentación y pronóstico del bloque revisado siguen bloqueados por longitud; no se publica una proyección.
+- 53 pruebas aprobadas; compilación y validación estática aprobadas. Captura: `trends-reviewed-block.jpg`.

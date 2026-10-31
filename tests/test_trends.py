@@ -26,6 +26,17 @@ class TrendCoverageTests(unittest.TestCase):
             r=next(r for r in data['entities'][0]['series']['examined']['records'] if r['year']==year)
             self.assertEqual(len(r['source_ids']),1)
             s=sources[r['source_ids'][0]];self.assertEqual(s['year'],year);self.assertEqual(len(s['sha256']),64)
+    def test_reviewed_count_block_is_scoped_and_does_not_enable_forecasts(self):
+        data=self.read('trends-national');metrics=data['entities'][0]['series']
+        block=metrics['examined']['reviewed_block']
+        self.assertEqual(block['coverage']['years'],list(range(2017,2026)))
+        self.assertTrue(block['models']['trend']['available'])
+        self.assertFalse(block['models']['segmented']['available'])
+        self.assertFalse(block['models']['forecast']['available'])
+        self.assertEqual(len(block['review']['source_ids']),9)
+        self.assertEqual({r['comparable_group'] for r in block['records']},{block['review']['id']})
+        for field in ['selected','rate','score']:self.assertNotIn('reviewed_block',metrics[field])
+        self.assertTrue(all(r['comparable_group'] is None for r in metrics['examined']['records']))
     def test_extra_editions_do_not_enable_unreviewed_models(self):
         rows=[observation(y,50.,[]) for y in range(2001,2026)]
         result=series(rows,'%',True)

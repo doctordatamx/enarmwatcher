@@ -26,6 +26,8 @@ def observation(year,value,source_ids,group=None,population='mexicana',stage='ac
 
 def build(data,specialties):
     out=ROOT/'public/data';sources=data['sources']+specialties['sources'];source_map={s['id']:s for s in sources}
+    review=json.loads((ROOT/'data/trends_comparability_review.json').read_text(encoding='utf8'))
+    review_valid=all(source_map.get(id,{}).get('sha256')==sha for id,sha in review['sources'].items())
     def write(name,payload):
         ids={id for entity in payload['entities'] for s in entity['series'].values() for r in s['records'] for id in r['source_ids']}
         payload['sources']=[{'id':id,'year':source_map[id]['year'],'url':source_map[id]['url'],'sha256':source_map[id]['sha256']} for id in sorted(ids)]
@@ -42,6 +44,18 @@ def build(data,specialties):
             if field=='score' and r['score'] is None:note='Media agregada no disponible; no se promedian medianas.'
             rows.append(observation(r['year'],r[field],ids,note=note))
         national[field]={'label':label,**series(rows,unit,bounded)}
+        if field=='examined' and review_valid:
+            # A changing school roster is part of this annual aggregate's scope,
+            # not a fixed institutional panel. This review does not equate scores.
+            reviewed=[dict(r,comparable_group='academic-mexicana-examined-2017-2025-v1') for r in rows if 2017<=r['year']<=2025]
+            if {sid for r in reviewed for sid in r['source_ids']}!=set(review['sources']):
+                raise ValueError('Reviewed source set changed; a new comparability review is required')
+            national[field]['reviewed_block']={**series(reviewed,unit,bounded),'review':{
+                'id':'academic-mexicana-examined-2017-2025-v1','date':'2026-10-31',
+                'scope':'Conteo descriptivo de sustentantes de categoría mexicana, agregado de las filas publicadas en cada edición.',
+                'evidence':'Encabezados y columna Sustentantes revisados en los reportes académicos oficiales de 2017–2025. Misma unidad de conteo y categoría publicada; no requiere equiparación de puntajes.',
+                'limitations':'La composición de escuelas y participantes cambia cada año. No es un panel fijo, personas únicas entre ediciones, demanda por especialidad ni efecto causal. La revisión no acredita comparabilidad de puntajes, seleccionados o universidades.',
+                'source_ids':sorted({sid for r in reviewed for sid in r['source_ids']})}}
     write('national',{'entities':[{'id':'national','name':'Agregado de filas académicas · categoría mexicana','series':national}]})
     universities=[]
     for u in data['universities']:

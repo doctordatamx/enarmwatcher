@@ -1,5 +1,11 @@
 # Historial de cambios
 
+## 0.2.1 — 2026-10-31
+
+- Reportes académicos oficiales 2024 y 2025: 153 y 159 filas, con 2,528 registros acumulados y cobertura 2001–2025.
+- Parser 2.1.0 conserva seleccionados vacíos y separa subtotal informado de total completo.
+- Panorama, perfiles, atlas, investigación, reportes, inventarios y warehouse actualizados.
+
 ## 0.2.0 — 2026-10-31
 
 - Plataforma general: inicio, panorama, universidades, comparador académico, atlas, investigación, explorador, reportes y fuentes.

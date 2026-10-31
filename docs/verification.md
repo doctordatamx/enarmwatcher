@@ -29,3 +29,14 @@ La consulta de lectura `git ls-remote https://github.com/doctordatamx/enarmwatch
 
 - Validación del artefacto estático aprobada: subruta Pages, particiones JSON, mapa y manifest/iconos.
 - Capturas actuales: `enarm-watcher-desktop.jpg` y `receiving-institutions-desktop.jpg`.
+
+## Ampliación académica 0.2.1
+
+- Reportes oficiales de 2024 y 2025 preservados con SHA-256 e incorporados con parser 2.1.0.
+- Cobertura actual 2001–2025: 2,528 filas. Nuevas ediciones: 153 filas en 2024 y 159 en 2025.
+- Fila naval de 2024 revisada visualmente en el PDF: tres sustentantes y seleccionados en blanco; se conserva null. En 2025 la fuente publica cinco sustentantes y cero seleccionados.
+- Panorama de 2025 comprobado en navegador: 44,911 sustentantes, 15,779 seleccionados, tasa de filas agregadas 35.13%.
+- Panorama de 2024 comprobado: 49,226 sustentantes; subtotal informado de 18,180 seleccionados y una fila ausente, sin total completo ni tasa nacional imputada.
+- Pruebas específicas de valores oficiales, conteos y reproducción de ambos parsers.
+
+- Verificación final de esta ampliación: 47 pruebas aprobadas; build y validación de subruta/particiones/manifest aprobados. Portada y selector universitario 2025 verificados en navegador.

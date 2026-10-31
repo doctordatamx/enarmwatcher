@@ -8,12 +8,12 @@ Plataforma pública estática de resultados académicos, universidades de proced
 
 | Conjunto | Ediciones | Registros |
 |---|---|---:|
-| Resultados académicos, categoría mexicana | 2001–2023 | 2,216 filas |
+| Resultados académicos, categoría mexicana | 2001–2025 | 2,528 filas |
 | Umbrales por especialidad | 2022–2025 | 107 filas; 28 especialidades |
 | Matrices de oferta R1 | 2023–2025 | 4,267 celdas, incluidos ceros publicados |
 | Oferta por sede | 2025 | 2,544 códigos; 18,515 plazas |
 
-La matriz y el detalle de sedes de 2025 concilian en total, por especialidad y por las cuatro instituciones principales. Son niveles alternativos, nunca sumables. Las 450 claves de procedencia conservan denominación/entidad e incluyen cambios históricos y categorías residuales; no equivalen a 450 universidades distintas.
+La matriz y el detalle de sedes de 2025 concilian en total, por especialidad y por las cuatro instituciones principales. Son niveles alternativos, nunca sumables. Las 471 claves de procedencia conservan denominación/entidad e incluyen cambios históricos y categorías residuales; no equivalen a 471 universidades distintas.
 
 ## Módulos
 

@@ -6,7 +6,7 @@ No joins infer individual origin/destination. Null never means zero.
 from pathlib import Path
 from collections import defaultdict
 from xml.etree import ElementTree as ET
-import csv,hashlib,json,re,zipfile,math
+import csv,hashlib,json,re,zipfile,math,sys
 import numpy as np
 from scipy import stats
 import pdfplumber
@@ -98,6 +98,7 @@ def academic_docx(source):
     return rows
 
 def academic_pdf(source):
+    if source['year']>=2024:return academic_recent_pdf(source)
     rows=[]
     with pdfplumber.open(verified(source)) as doc:
         for page_no,page in enumerate(doc.pages,1):
@@ -116,6 +117,45 @@ def academic_pdf(source):
                 if not name or 'Entidad' in name:raise ValueError(f'Invalid PDF academic row page {page_no}: state={state!r}, name={name!r}, values={[a["text"],b["text"],c["text"]]}')
                 rec=academic_record(source,state,name,[a['text'],b['text'],c['text']],page=page_no)
                 if rec:rows.append(rec)
+    return rows
+
+def academic_recent_pdf(source):
+    """2024–25: anchor on the score, retain blank selected cells explicitly.
+
+    Use printed table column and row rectangles, not the presence of three
+    numbers. The latter would silently drop the 2024 naval-school observation.
+    """
+    rows=[]
+    with pdfplumber.open(verified(source)) as doc:
+        for page_no,page in enumerate(doc.pages,1):
+            words=page.extract_words();table=page.find_tables()[0];header=[c for c in table.rows[0].cells if c]
+            divider=header[0][2]
+            scores=[w for w in words if re.fullmatch(r'\d+\.\d+',w['text']) and w['top']>140 and w['x0']>page.width*.8]
+            numeric=[w for w in words if number(w['text']) is not None and w['top']>140 and w['x0']>page.width*.5]
+            sample=next(sorted([w for w in numeric if abs(w['top']-c['top'])<3],key=lambda w:w['x0']) for c in scores if len([w for w in numeric if abs(w['top']-c['top'])<3])==3)
+            def column(w):
+                x=(w['x0']+w['x1'])/2
+                return max([b for b in header if b[0]<x<b[2]],key=lambda b:b[2]-b[0])
+            count_col,selected_col=column(sample[0]),column(sample[1]);school_x=(divider+count_col[0])/2
+            for c in scores:
+                cy=(c['top']+c['bottom'])/2
+                rectangles=[b for b in table.cells if b[0]<school_x<b[2] and b[1]<cy<b[3] and b[3]-b[1]<100]
+                if not rectangles:raise ValueError(f'Missing school row bounds {source["year"]} page {page_no}')
+                box=max(rectangles,key=lambda b:b[3]-b[1]);top,bottom=box[1],box[3]
+                row_words=[w for w in words if top<= (w['top']+w['bottom'])/2 <bottom]
+                def cell_value(col):
+                    values=[w['text'] for w in row_words if col[0]<=(w['x0']+w['x1'])/2<col[2] and number(w['text']) is not None]
+                    if len(values)>1:raise ValueError('Multiple counts in one academic cell')
+                    return values[0] if values else ''
+                state=clean(' '.join(w['text'] for w in row_words if w['x0']<divider))
+                original_name=clean(' '.join(w['text'] for w in row_words if divider<=w['x0']<count_col[0]))
+                name=original_name.replace('C AMPUS','CAMPUS')
+                if not name:raise ValueError('Missing academic school name')
+                rec=academic_record(source,state,name,[cell_value(count_col),cell_value(selected_col),c['text']],page=page_no)
+                if rec:rec['name_original']=original_name;rows.append(rec)
+            page.close()
+    expected={2024:153,2025:159}
+    if len(rows)!=expected[source['year']]:raise ValueError(f'Academic row count {source["year"]}: expected {expected[source["year"]]}, got {len(rows)}')
     return rows
 
 MAJOR={'secretaria-de-salud':'ssa','secretaria-de-salud-ssa':'ssa','instituto-mexicano-del-seguro-social':'imss','instituto-mexicano-del-seguro-social-imss':'imss','instituto-de-seguridad-y-servicios-sociales-de-los-trabajadores-del-estado':'issste','instituto-de-seguridad-y-servicios-sociales-de-los-trabajadores-del-estado-issste':'issste','petroleos-mexicanos':'pemex','petroleos-mexicanos-pemex':'pemex'}
@@ -197,12 +237,23 @@ def binomial_interval(selected,examined):
 def national_aggregate(rows):
     n=sum(r['examined'] for r in rows);complete=all(r['selected'] is not None for r in rows);sel=sum(r['selected'] for r in rows) if complete else None
     mean_rows=[r for r in rows if r['score'] is not None and r['score_statistic']=='mean']
-    return {'examined':n,'selected':sel,'rate':100*sel/n if sel is not None and n else None,'score':sum(r['examined']*r['score'] for r in mean_rows)/sum(r['examined'] for r in mean_rows) if len(mean_rows)==len(rows) and mean_rows else None,'institutions':len(rows),'selected_complete':complete,'aggregation':'Suma de filas extraídas, categoría mexicana; no equivale a personas únicas entre ediciones.'}
+    return {'examined':n,'selected':sel,'selected_observed_subtotal':sum(r['selected'] for r in rows if r['selected'] is not None),'selected_missing_rows':sum(r['selected'] is None for r in rows),'rate':100*sel/n if sel is not None and n else None,'score':sum(r['examined']*r['score'] for r in mean_rows)/sum(r['examined'] for r in mean_rows) if len(mean_rows)==len(rows) and mean_rows else None,'institutions':len(rows),'selected_complete':complete,'aggregation':'Suma de filas extraídas, categoría mexicana; no equivale a personas únicas entre ediciones.'}
 
-def main():
+def main(academic_only=False):
     sources=json.loads((ROOT/'data/platform_sources.json').read_text(encoding='utf-8'));specialties=json.loads((ROOT/'public/data/specialties.json').read_text(encoding='utf-8'))
     academics=[];receiving=[];sites=[];issues=[]
+    previous=None
+    if academic_only:
+        previous=json.loads((ROOT/'data/normalized/platform.json').read_text(encoding='utf8'))
+        receiving=previous['receiving'];sites=previous['sites']
     for source in sources:
+        if academic_only and source['kind']!='academic':
+            old=next((s for s in previous['sources'] if s['id']==source['id']),None)
+            if not old or old['sha256']!=source['sha256']:raise ValueError('Non-academic source changed; run full build')
+            verified(source)
+            for key in ['rows','status','published_total']:
+                if key in old:source[key]=old[key]
+            continue
         if source['kind']=='academic':
             verified(source)
             try:
@@ -242,4 +293,4 @@ def main():
         w.writerows([r['year'],r['institution_id'],r['specialty_id'],'national_institution','oferta_publicada_R1',r['places'],r['source_id'],'extracted_checked'] for r in receiving)
     print(len(academics),'academic records;',len(institutions),'university identities;',len(receiving),'matrix cells;',len(issues),'quarantined sources')
 
-if __name__=='__main__':main()
+if __name__=='__main__':main('--academic-only' in sys.argv)

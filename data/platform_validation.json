@@ -467,8 +467,8 @@
       "population": "mexicana",
       "stage": "oferta publicada R1, snapshot de documento; no asignación ni ocupación",
       "cutoff": null,
-      "published_total": 18207,
-      "rows": 1431
+      "rows": 1431,
+      "published_total": 18207
     },
     {
       "id": "receiving_matrix-2025-b1edb918",
@@ -486,8 +486,8 @@
       "population": "mexicana",
       "stage": "oferta publicada R1, snapshot de documento; no asignación ni ocupación",
       "cutoff": null,
-      "published_total": 18515,
-      "rows": 1458
+      "rows": 1458,
+      "published_total": 18515
     },
     {
       "id": "receiving_sites-2025-60262760",
@@ -577,8 +577,8 @@
       "population": "mexicana",
       "stage": "oferta publicada R1, snapshot de documento; no asignación ni ocupación",
       "cutoff": null,
-      "published_total": 18167,
-      "rows": 1378
+      "rows": 1378,
+      "published_total": 18167
     },
     {
       "id": "receiving_sites-2025-1069d9d9",
@@ -597,6 +597,42 @@
       "stage": "oferta publicada R1, snapshot de documento; no asignación ni ocupación",
       "cutoff": null,
       "rows": 207
+    },
+    {
+      "id": "academic-2024-b9814c4c",
+      "kind": "academic",
+      "year": 2024,
+      "edition": 48,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2024/docs/2024-ENARx_Reporte-Academico.pdf",
+      "title": "Reporte académico",
+      "issuer": "CIFRHS / Secretaría de Salud",
+      "file": "data/raw/platform/2024-academic-2024-ENARx_Reporte-Academico.pdf",
+      "downloaded_at": "2026-10-31T17:29:52.787338+00:00",
+      "sha256": "4293c3b92792e932038fbbe20290b726d16bd9f89c5c4e0142cbf850f33d00a5",
+      "parser_version": "2.1.0",
+      "status": "extracted_checked",
+      "population": "mexicana",
+      "stage": "published-academic",
+      "cutoff": null,
+      "rows": 153
+    },
+    {
+      "id": "academic-2025-d601d64a",
+      "kind": "academic",
+      "year": 2025,
+      "edition": 49,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/docs/2025-ENARM_Reporte-Academico.pdf",
+      "title": "Reporte académico",
+      "issuer": "CIFRHS / Secretaría de Salud",
+      "file": "data/raw/platform/2025-academic-2025-ENARM_Reporte-Academico.pdf",
+      "downloaded_at": "2026-10-31T17:29:53.597243+00:00",
+      "sha256": "0798eb1389a8b6c08482181bc752acc7c9c5e21dd41688a6f8554785160f1634",
+      "parser_version": "2.1.0",
+      "status": "extracted_checked",
+      "population": "mexicana",
+      "stage": "published-academic",
+      "cutoff": null,
+      "rows": 159
     }
   ]
 }

@@ -1,7 +1,7 @@
 import json,hashlib,unittest,math
 from collections import defaultdict
 from pipeline.ingest import ROOT
-from pipeline.platform import concentration,binomial_interval,national_aggregate,state_name,clean
+from pipeline.platform import concentration,binomial_interval,national_aggregate,state_name,clean,academic_pdf
 from pipeline.institutional_analytics import cross_section,partial_pooling
 from pipeline.receiving_analytics import analyse
 
@@ -11,7 +11,7 @@ class PlatformDataTests(unittest.TestCase):
     def test_all_raw_hashes(self):
         for s in self.d['sources']:self.assertEqual(hashlib.sha256((ROOT/s['file']).read_bytes()).hexdigest(),s['sha256'])
     def test_real_coverage(self):
-        self.assertEqual(self.d['academic_years'],list(range(2001,2024)));self.assertEqual(len(self.d['academic_records']),2216);self.assertEqual(len(self.d['sites']),2544)
+        self.assertEqual(self.d['academic_years'],list(range(2001,2026)));self.assertEqual(len(self.d['academic_records']),2528);self.assertEqual(len(self.d['sites']),2544)
         self.assertEqual(self.d['issues'],[])
     def test_academic_uniqueness_and_domains(self):
         seen=set()
@@ -21,8 +21,27 @@ class PlatformDataTests(unittest.TestCase):
             if r['selected'] is not None:self.assertLessEqual(r['selected'],r['examined']);self.assertAlmostEqual(r['rate'],100*r['selected']/r['examined'])
             self.assertIsNone(r['score_comparable_group']);self.assertIsNone(r['rate_comparable_group'])
     def test_official_academic_spot_checks(self):
-        for year,exam,selected,score in [(2021,264,163,61.82),(2022,239,122,59.28),(2023,237,143,60.1317)]:
+        for year,exam,selected,score in [(2021,264,163,61.82),(2022,239,122,59.28),(2023,237,143,60.1317),(2024,287,168,59.7014),(2025,242,122,61.6336)]:
             row=next(r for r in self.d['academic_records'] if r['year']==year and r['name']=='UNIV. AUT. DE AGUASCALIENTES');self.assertEqual((row['examined'],row['selected'],row['score']),(exam,selected,score))
+    def test_2024_blank_selected_and_2025_observed_zero(self):
+        rows=[r for r in self.d['academic_records'] if r['name']=='ESC. MÉDICO - NAVAL SEMAR']
+        a=next(r for r in rows if r['year']==2024);b=next(r for r in rows if r['year']==2025)
+        self.assertEqual(a['examined'],3);self.assertIsNone(a['selected']);self.assertIsNone(a['rate'])
+        self.assertEqual(b['examined'],5);self.assertEqual(b['selected'],0);self.assertEqual(b['rate'],0)
+        national=next(r for r in self.d['national'] if r['year']==2024)
+        self.assertEqual(national['selected_missing_rows'],1);self.assertEqual(national['selected_observed_subtotal'],18180)
+        self.assertIsNone(national['selected']);self.assertIsNone(national['rate'])
+    def test_recent_reports_counts_and_totals(self):
+        for year,count,examined in [(2024,153,49226),(2025,159,44911)]:
+            rows=[r for r in self.d['academic_records'] if r['year']==year]
+            self.assertEqual(len(rows),count);self.assertEqual(sum(r['examined'] for r in rows),examined)
+        self.assertEqual(next(r for r in self.d['national'] if r['year']==2025)['selected'],15779)
+    def test_recent_parser_reproduces_snapshot(self):
+        fields=['id','name','state','examined','selected','score','page','original_values']
+        for source in self.d['sources']:
+            if source['kind']=='academic' and source['year'] in [2024,2025]:
+                actual=academic_pdf(source);expected=[r for r in self.d['academic_records'] if r['source_id']==source['id']]
+                self.assertEqual([{k:r[k] for k in fields} for r in actual],[{k:r[k] for k in fields} for r in expected])
     def test_medians_not_averaged(self):
         for year in [2005,2006]:
             rows=[r for r in self.d['academic_records'] if r['year']==year];self.assertTrue(all(r['score_statistic']=='median' for r in rows));self.assertIsNone(national_aggregate(rows)['score'])

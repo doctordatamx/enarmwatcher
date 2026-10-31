@@ -10,6 +10,13 @@ from pathlib import Path
 import re,json,hashlib,datetime,time
 from .ingest import ROOT
 
+# Official academic PDFs discovered outside the historical catalogue's active
+# script entries. Keep exact published filenames, including ENARx in 2024.
+RECENT_ACADEMIC = {
+    2024: 'https://cifrhs.salud.gob.mx/site1/enarm/2024/docs/2024-ENARx_Reporte-Academico.pdf',
+    2025: 'https://cifrhs.salud.gob.mx/site1/enarm/2025/docs/2025-ENARM_Reporte-Academico.pdf',
+}
+
 class Links(HTMLParser):
     def __init__(self):super().__init__();self.links=[];self.href=None;self.label=[]
     def handle_starttag(self,tag,attrs):
@@ -35,7 +42,7 @@ def main():
     directory=ROOT/'data/raw/platform';directory.mkdir(parents=True,exist_ok=True)
     manifest_path=ROOT/'data/platform_sources.json'
     existing={s['url']:s for s in json.loads(manifest_path.read_text(encoding='utf-8'))} if manifest_path.exists() else {}
-    found=[];discovery=[];errors=[]
+    found=[(year,'academic',url,'Reporte académico') for year,url in RECENT_ACADEMIC.items()];discovery=[];errors=[]
     academic_url='https://cifrhs.salud.gob.mx/site1/enarm/reportes_academicos.html'
     html=fetch(academic_url).decode('utf-8',errors='replace')
     (directory/'academic-index.html').write_text(html,encoding='utf-8')

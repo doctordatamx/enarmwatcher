@@ -4,12 +4,12 @@ Esta matriz separa implementación comprobable, limitación de evidencia y bloqu
 
 | Área | Implementado | Pendiente / límite |
 |---|---|---|
-| Fuentes y auditoría | 23 reportes académicos, 3 matrices receptoras, 5 listados de sedes, 4 tablas de umbrales; originales y hashes | Académicos 2024–2026 y oferta anterior a2023 no incorporados; auditoría no exhaustiva de todo lo público |
+| Fuentes y auditoría | 25 reportes académicos, 3 matrices receptoras, 5 listados de sedes, 4 tablas de umbrales; originales y hashes | Académicos 2026 y oferta anterior a2023 no incorporados; auditoría no exhaustiva de todo lo público |
 | Arquitectura | Python, JSON por módulo, DuckDB y Parquet Zstandard, React/TS/Vite/ECharts | No backend permanente; no API privada |
 | Marca | Isotipo, logos claro/oscuro/monocromo, favicon, PNG192/512, OpenGraph y manifest | Sin auditoría de marca externa |
 | Navegación e inicio | Inicio, panorama, procedencia, especialidades, receptoras, sedes, comparadores, atlas, ciencia de datos, predicción, explorador, reportes, métodos, fuentes; búsqueda global | Rutas hash bajo subruta Pages |
 | Panorama nacional | Sustentantes, seleccionados, tasas, medias ponderadas cuando procede, tabla/exportación | Agregados de filas reportadas, no conteo de personas únicas; no mezcla de medianas o escalas |
-| Universidades | Perfiles, entidad fuente, historia, tamaños, tasas, Wilson, comparación nacional, filtro volumen, comparadorhasta 5 | 450 claves exactas no equivalen a450 universidades distintas; equivalencias históricas no revisadas no se fusionan |
+| Universidades | Perfiles, entidad fuente, historia, tamaños, tasas, Wilson, comparación nacional, filtro volumen, comparadorhasta 5 | 471 claves exactas no equivalen a 471 universidades distintas; equivalencias históricas no revisadas no se fusionan |
 | Rankings | Orden por tasa/media/volumen por edición, denominadores, percentiles/rangos precomputados y empates | Movilidad longitudinal y rankings causales bloqueados |
 | Specialty Intelligence | Entregado previamente y conectado a oferta receptora por clave de especialidad | Comparabilidad temporal y denominadores de demanda pendientes |
 | Receptoras | Perfiles de filas institucionales, oferta por especialidad, tres snapshots, concentración, diversidad, LQ, correspondencias y clustering exploratorio | Oferta no equivale a asignación u ocupación; jerarquías no documentadas no se inventan |

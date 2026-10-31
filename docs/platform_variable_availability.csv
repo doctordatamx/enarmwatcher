@@ -22,6 +22,6 @@ year,academic_examined,academic_selected,academic_score_statistic,receiving_inst
 2021,available,available,mean,not_incorporated,not_incorporated,not_linked,not_incorporated
 2022,available,available,mean,not_incorporated,not_incorporated,not_linked,not_incorporated
 2023,available,available,mean,available,not_incorporated,not_linked,not_incorporated
-2024,not_incorporated,not_incorporated,not_incorporated,available,not_incorporated,not_linked,not_incorporated
-2025,not_incorporated,not_incorporated,not_incorporated,available,available,not_linked,not_incorporated
+2024,available,partial,mean,available,not_incorporated,not_linked,not_incorporated
+2025,available,available,mean,available,available,not_linked,not_incorporated
 2026,not_incorporated,not_incorporated,not_incorporated,not_incorporated,not_incorporated,not_linked,not_incorporated

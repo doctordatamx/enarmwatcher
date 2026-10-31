@@ -1,0 +1,388 @@
+{
+  "links": [
+    {
+      "year": 2023,
+      "url": "https://cifrhs.salud.gob.mx/site1/cifrhs/docs/cifrhs_acuerdo_creacion.pdf",
+      "label": "Acuerdo por el que se Crea",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2023/index.html"
+    },
+    {
+      "year": 2023,
+      "url": "https://cifrhs.salud.gob.mx/site1/cifrhs/docs/cifrhs_reglamento.pdf",
+      "label": "Reglamento Interior",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2023/index.html"
+    },
+    {
+      "year": 2023,
+      "url": "https://cifrhs.salud.gob.mx/site1/residencias/docs/NOM-001-SSA-2023.pdf",
+      "label": "NOM-001-SSA-2023,Educación en salud.  Para la organización y funcionamiento de  residencias médicas en establecimientos  para la atención médica",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2023/index.html"
+    },
+    {
+      "year": 2023,
+      "url": "https://cifrhs.salud.gob.mx/site1/residencias/docs/NOM-033-SSA-2023.pdf",
+      "label": "NOM-033-SSA-2023, Educación en salud.  Criterios para la utilización de los  establecimientos para la atención médica  como campos clínicos para ciclos  clí­nicos e internado de pregrado  de la licenciatura en medicina.",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2023/index.html"
+    },
+    {
+      "year": 2023,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2023/docs/2023-ENARM_Convocatoria.pdf",
+      "label": "Convocatoria XLVII ENARM",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2023/index.html"
+    },
+    {
+      "year": 2023,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2023/docs/2023-ENARM-Plazas_mex-lugares-ext.pdf",
+      "label": "Plazas ofertadas para médicos categoría mexicana y lugares para médicos categoría extranjera",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2023/index.html"
+    },
+    {
+      "year": 2023,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2023/docs/2023-ENARM-Plaza-Especialidad-Mex.pdf",
+      "label": "Plazas para médicos seleccionados - Categoría mexicana (R1), para cursos de especialización de entrada directa en Instituciones Públicas y Privadas",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2023/index.html"
+    },
+    {
+      "year": 2023,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2023/docs/2023-ENARM-Plaza-Especialidad-Ext.pdf",
+      "label": "Lugares para médicos seleccionados - Categoría extranjera (R1), para cursos de especialización de entrada directa en Instituciones Públicas y Privada",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2023/index.html"
+    },
+    {
+      "year": 2023,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2023/docs/2023-ENARM_Folios-Mexicanos.pdf",
+      "label": "Folios de médicos seleccionados - Categoría mexicana",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2023/index.html"
+    },
+    {
+      "year": 2023,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2023/docs/2023-ENARM_Folios-Extranjeros.pdf",
+      "label": "Folios de médicos seleccionados - Categoría extranjera",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2023/index.html"
+    },
+    {
+      "year": 2023,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2023/docs/2023-ENARM-Cronograma-Campos-Clinicos.pdf",
+      "label": "Proceso sectorial y periodos para la asignación de campos clínicos",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2023/index.html"
+    },
+    {
+      "year": 2024,
+      "url": "https://cifrhs.salud.gob.mx/site1/cifrhs/docs/cifrhs_acuerdo_creacion.pdf",
+      "label": "Acuerdo por el que se Crea",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2024/index.html"
+    },
+    {
+      "year": 2024,
+      "url": "https://cifrhs.salud.gob.mx/site1/cifrhs/docs/cifrhs_reglamento.pdf",
+      "label": "Reglamento Interior",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2024/index.html"
+    },
+    {
+      "year": 2024,
+      "url": "https://cifrhs.salud.gob.mx/site1/residencias/docs/NOM-001-SSA-2023.pdf",
+      "label": "NOM-001-SSA-2023, Educación en salud.  Para la organización y funcionamiento de  residencias médicas en establecimientos  para la atención médica",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2024/index.html"
+    },
+    {
+      "year": 2024,
+      "url": "https://cifrhs.salud.gob.mx/site1/residencias/docs/NOM-033-SSA-2023.pdf",
+      "label": "NOM-033-SSA-2023, Educación en salud.  Criterios para la utilización de los  establecimientos para la atención médica  como campos clínicos para ciclos  clínicos e internado de pregrado  de la licenciatura en medicina.",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2024/index.html"
+    },
+    {
+      "year": 2024,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2024/docs/2024-ENARM_Convocatoria.pdf",
+      "label": "Convocatoria XLVIII ENARM 2024",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2024/index.html"
+    },
+    {
+      "year": 2024,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2024/docs/2024-ENARM_guia-seleccion.pdf",
+      "label": "Guía del usuario para el Proceso de Selección de Especialidad XLVIII ENARM 2024",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2024/index.html"
+    },
+    {
+      "year": 2024,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2024/docs/2024-ENARM-Plazas-lugares.pdf",
+      "label": "Plazas ofertadas para médicos categoría mexicana y lugares para médicos categoría extranjera",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2024/index.html"
+    },
+    {
+      "year": 2024,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2024/docs/2024-ENARM-Plazas-mex.pdf",
+      "label": "Plazas para médicos seleccionados - Categoría mexicana (R1), para cursos de especialización de entrada directa en Instituciones Públicas y Privadas",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2024/index.html"
+    },
+    {
+      "year": 2024,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2024/docs/2024-ENARM-Plazas-ext.pdf",
+      "label": "Lugares para médicos seleccionados - Categoría extranjera (R1), para cursos de especialización de entrada directa en Instituciones Públicas y Privada",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2024/index.html"
+    },
+    {
+      "year": 2024,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2024/docs/2024-ENARM-asignacion-CC.pdf",
+      "label": "Proceso sectorial y periodos para la asignación de campos clínicos",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2024/index.html"
+    },
+    {
+      "year": 2024,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2024/docs/2024-ENARM_Folios-Mexicanos.pdf",
+      "label": "Folios de médicos seleccionados - Categoría mexicana",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2024/index.html"
+    },
+    {
+      "year": 2024,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2024/docs/2024-ENARM_Folios-Extranjeros.pdf",
+      "label": "Folios de médicos seleccionados - Categoría extranjera",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2024/index.html"
+    },
+    {
+      "year": 2024,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2024/docs/2024-ENARM-puntajes.pdf",
+      "label": "Puntajes máximos y mínimos por especialidad de médicos mexicanos civiles y lugares médicos extranjeros seleccionados",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2024/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/cifrhs/docs/cifrhs_acuerdo_creacion.pdf",
+      "label": "Acuerdo por el que se Crea",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/cifrhs/docs/cifrhs_reglamento.pdf",
+      "label": "Reglamento Interior",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/residencias/docs/NOM-001-SSA-2023.pdf",
+      "label": "NOM-001-SSA-2023,Educación en salud.  Para la organización y funcionamiento de  residencias médicas en establecimientos  para la atención médica",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/residencias/docs/NOM-033-SSA-2023.pdf",
+      "label": "NOM-033-SSA-2023, Educación en salud.  Criterios para la utilización de los  establecimientos para la atención médica  como campos clínicos para ciclos  clí­nicos e internado de pregrado  de la licenciatura en medicina.",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/docs/2025-ENARM-puntajes.pdf",
+      "label": "Puntajes máximos y mínimos por especialidad de médicos mexicanos civiles y lugares médicos extranjeros seleccionados   17 de mayo de 2026",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/docs/20260529-DISTRIBUCION_PUNTAJE-ENARM_VUELTAS2.pdf",
+      "label": "Distribución de Puntajes de las Personas Seleccionadas por especialidad que sustentaron el ENARM 2025 (Global y por cada vuelta)   29 de mayo de 2026",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/docs/20251015-ENARM-Guia_Usuario_Proceso_Seleccion_VF3.pdf",
+      "label": "Guía del Usuario para el Proceso de Selección de Especialidad XLIX ENARM",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/docs/Cuadro_1_Bloques_Tradicional_Mex_ENARM_2025_4a_Vuelta.pdf",
+      "label": "CUADRO 1.  FOLIOS, BLOQUES, FECHA Y HORA DE LAS MÉDICAS Y MÉDICOS CATEGORÍA MEXICANA QUE PARTICIPARÁN EN EL PROCEDIMIENTO DE SELECCIÓN DE ESPECIALIDAD Y SEDE DE ACUERDO AL BLOQUE QUE LES CORRESPONDA*",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/docs/Cuadro_2_Bloques_IMSS_o_ISSSTE_ENARM_2025_4a_Vuelta.pdf",
+      "label": "CUADRO 2.  FOLIOS, BLOQUES, FECHA Y HORA DE LAS MÉDICAS Y MÉDICOS CATEGORÍA MEXICANA QUE PARTICIPARÁN EN EL PROCEDIMIENTO DE SELECCIÓN DE ESPECIALIDAD Y SEDE DE ACUERDO A LOS SUPUESTOS IMSS O ISSSTE Y QUE ASPIREN EXCLUSIVAMENTE A UNA SEDE DEL IMSS Y AL ISSSTE*",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/docs/Cuadro_3_Bloques_Tradicional_Ext_ENARM_2025_4a_Vuelta.pdf",
+      "label": "CUADRO 3.  FOLIOS, BLOQUES, FECHA Y HORA DE LAS MÉDICAS Y MÉDICOS CATEGORÍA EXTRANJERA QUE PARTICIPARÁN EN EL PROCEDIMIENTO DE SELECCIÓN DE ESPECIALIDAD Y SEDE DE ACUERDO AL BLOQUE QUE LES CORRESPONDA*",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/plazas/Plazas_sicco_4a_vuelta-mex-directa-Otras_Instituciones.pdf",
+      "label": "CATEGORÍA MEXICANA OTRAS INSTITUCIONES",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/plazas/Plazas_sicco_4a_vuelta-mex-directa-IMSS.pdf",
+      "label": "CATEGORÍA MEXICANA, INSTITUTO MEXICANO DEL SEGURO SOCIAL",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/plazas/Plazas_sicco_4a_vuelta-ext-directa-total.pdf",
+      "label": "CATEGORÍA EXTRANJERA",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/docs/20251015-ENARM-Guia_Usuario_Proceso_Seleccion_VF3.pdf",
+      "label": "Guía del Usuario para el Proceso de Selección de Especialidad XLIX ENARM",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/docs/Cuadro_1_Bloques_Tradicional_Mex_ENARM_2025_3a_Vuelta.pdf",
+      "label": "CUADRO 1.  FOLIOS, BLOQUES, FECHA Y HORA DE LAS MÉDICAS Y MÉDICOS CATEGORÍA MEXICANA QUE PARTICIPARÁN EN EL PROCEDIMIENTO DE SELECCIÓN DE ESPECIALIDAD Y SEDE DE ACUERDO AL BLOQUE QUE LES CORRESPONDA*",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/docs/Cuadro_2_Bloques_IMSS_o_ISSSTE_ENARM_2025_3a_Vuelta.pdf",
+      "label": "CUADRO 2.  FOLIOS, BLOQUES, FECHA Y HORA DE LAS MÉDICAS Y MÉDICOS CATEGORÍA MEXICANA QUE PARTICIPARÁN EN EL PROCEDIMIENTO DE SELECCIÓN DE ESPECIALIDAD Y SEDE DE ACUERDO A LOS SUPUESTOS IMSS O ISSSTE Y QUE ASPIREN EXCLUSIVAMENTE A UNA SEDE DEL IMSS Y AL ISSSTE*",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/docs/Cuadro_3_Bloques_Tradicional_Ext_ENARM_2025_3a_Vuelta.pdf",
+      "label": "CUADRO 3.  FOLIOS, BLOQUES, FECHA Y HORA DE LAS MÉDICAS Y MÉDICOS CATEGORÍA EXTRANJERA QUE PARTICIPARÁN EN EL PROCEDIMIENTO DE SELECCIÓN DE ESPECIALIDAD Y SEDE DE ACUERDO AL BLOQUE QUE LES CORRESPONDA*",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/plazas/Plazas_sicco_3a_vuelta-mex-directa-Otras_Instituciones.pdf",
+      "label": "CATEGORÍA MEXICANA OTRAS INSTITUCIONES",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/plazas/Plazas_sicco_3a_vuelta-mex-directa-IMSS.pdf",
+      "label": "CATEGORÍA MEXICANA, INSTITUTO MEXICANO DEL SEGURO SOCIAL",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/plazas/Plazas_sicco_3a_vuelta-ext-directa-totaL.pdf",
+      "label": "CATEGORÍA EXTRANJERA",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/docs/20251015-ENARM-Guia_Usuario_Proceso_Seleccion_VF3.pdf",
+      "label": "Guía del Usuario para el Proceso de Selección de Especialidad XLIX ENARM",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/docs/Cuadro_1_Bloques_Tradicional_Mex_ENARM_2025_2a_Vuelta.pdf",
+      "label": "CUADRO 1.  FOLIOS, BLOQUES, FECHA Y HORA DE LAS MÉDICAS Y MÉDICOS CATEGORÍA MEXICANA QUE PARTICIPARÁN EN EL PROCEDIMIENTO DE SELECCIÓN DE ESPECIALIDAD Y SEDE DE ACUERDO AL BLOQUE QUE LES CORRESPONDA*",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/docs/Cuadro_2_Bloques_IMSS_o_ISSSTE_ENARM_2025_2a_Vuelta.pdf",
+      "label": "CUADRO 2.  FOLIOS, BLOQUES, FECHA Y HORA DE LAS MÉDICAS Y MÉDICOS CATEGORÍA MEXICANA QUE PARTICIPARÁN EN EL PROCEDIMIENTO DE SELECCIÓN DE ESPECIALIDAD Y SEDE DE ACUERDO A LOS SUPUESTOS IMSS O ISSSTE Y QUE ASPIREN EXCLUSIVAMENTE A UNA SEDE DEL IMSS Y AL ISSSTE*",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/docs/Cuadro_3_Bloques_Tradicional_Ext_ENARM_2025_2a_Vuelta.pdf",
+      "label": "CUADRO 3.  FOLIOS, BLOQUES, FECHA Y HORA DE LAS MÉDICAS Y MÉDICOS CATEGORÍA EXTRANJERA QUE PARTICIPARÁN EN EL PROCEDIMIENTO DE SELECCIÓN DE ESPECIALIDAD Y SEDE DE ACUERDO AL BLOQUE QUE LES CORRESPONDA*",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/plazas/Plazas_sicco_2da_vuelta-mex-directa-Otras_Instituciones.pdf",
+      "label": "CATEGORÍA MEXICANA OTRAS INSTITUCIONES",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/plazas/Plazas_sicco_2da_vuelta-mex-directa-IMSS-2.pdf",
+      "label": "CATEGORÍA MEXICANA, INSTITUTO MEXICANO DEL SEGURO SOCIAL",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/plazas/Plazas_sicco_2da_vuelta-ext-directa-total.pdf",
+      "label": "CATEGORÍA EXTRANJERA",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/docs/20251015-ENARM-Guia_Usuario_Proceso_Seleccion_VF3.pdf",
+      "label": "Guía del Usuario para el Proceso de Selección de Especialidad XLIX ENARM",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/plazas/Plazas_sicco_plazas-mex_lugares-ext.pdf",
+      "label": "Lugares para Médicos Seleccionados - Categoría Mexicana y lugares Categoría Extranjera",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/plazas/Plazas_sicco_plazas-mex-directa.pdf",
+      "label": "Plazas para Médicos Seleccionados -  Categoría Mexicana (R1), para Cursos de Especialización de Entrada Directa en Instituciones Publicas y Privadas",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/plazas/Plazas_sicco_plazas-ext-directa.pdf",
+      "label": "Lugares para Médicos Seleccionados - Categoría Extranjera (R1), para Cursos de Especialización de Entrada Directa en Instituciones Públicas y Privadas",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/docs/2025-ENARM-Convocatoria_ADENDUM_Aprobada_por-CPEC.pdf",
+      "label": "CONVOCATORIA XLIX ENARM 2025 (ADDENDUM)",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/docs/2025-ENARM_Convocatoria.pdf",
+      "label": "Convocatoria XLIX ENARM 2025",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/plazas/Plazas_sicco_plazas-mex-directa-salud.pdf",
+      "label": "Secretaría de Salud",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/plazas/Plazas_sicco_plazas-mex-directa-imss.pdf",
+      "label": "Instituto Mexicano del Seguro Social (IMSS)",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/plazas/Plazas_sicco_plazas-mex-directa-issste.pdf",
+      "label": "Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado (ISSSTE)",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/plazas/Plazas_sicco_plazas-mex-directa-pemex.pdf",
+      "label": "Petróleos Mexicanos (PEMEX)",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/plazas/Plazas_sicco_plazas-mex-directa-total.pdf",
+      "label": "Otras Instituciones",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    },
+    {
+      "year": 2025,
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/plazas/Plazas_sicco_plazas-mex-directa-ext.pdf",
+      "label": "Instituciones",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html"
+    }
+  ],
+  "errors": [
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2022/index.html",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ]
+}

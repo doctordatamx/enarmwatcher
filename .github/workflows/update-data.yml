@@ -1,0 +1,24 @@
+name: Weekly official source monitor
+on:
+  schedule:
+    - cron: '0 14 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pipeline.check_updates
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: official-source-review
+          path: |
+            data/update_report.json
+            data/staging/candidates/
+          retention-days: 30

@@ -1,0 +1,29 @@
+{
+  "name": "enarm-watcher",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "data": "node pipeline/extract-word.mjs && python -m pipeline.build && python -m pipeline.platform && python -m pipeline.partition && python -m pipeline.institutional_analytics && python -m pipeline.receiving_analytics && python -m pipeline.warehouse",
+    "test": "python -m unittest discover -s tests -v",
+    "check:static": "node scripts/validate_static.mjs"
+  },
+  "dependencies": {
+    "echarts": "^6.0.0",
+    "jspdf": "^4.2.1",
+    "lucide-react": "^0.468.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.4.1",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "word-extractor": "^1.0.4"
+  }
+}

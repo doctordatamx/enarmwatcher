@@ -1,0 +1,555 @@
+{
+  "checked_at": "2026-10-31T17:06:57.169060+00:00",
+  "changed": [],
+  "new_links": [
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/cifrhs/docs/cifrhs_acuerdo_creacion.pdf",
+      "label": "Acuerdo por el que se Crea",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/cifrhs/docs/cifrhs_reglamento.pdf",
+      "label": "Reglamento Interior",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/residencias/docs/NOM-001-SSA-2023.pdf",
+      "label": "NOM-001-SSA-2023,Educación en salud.  Para la organización y funcionamiento de  residencias médicas en establecimientos  para la atención médica",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/residencias/docs/NOM-033-SSA-2023.pdf",
+      "label": "NOM-033-SSA-2023, Educación en salud.  Criterios para la utilización de los  establecimientos para la atención médica  como campos clínicos para ciclos  clí­nicos e internado de pregrado  de la licenciatura en medicina.",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/docs/20260529-DISTRIBUCION_PUNTAJE-ENARM_VUELTAS2.pdf",
+      "label": "Distribución de Puntajes de las Personas Seleccionadas por especialidad que sustentaron el ENARM 2025 (Global y por cada vuelta)   29 de mayo de 2026",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/docs/20251015-ENARM-Guia_Usuario_Proceso_Seleccion_VF3.pdf",
+      "label": "Guía del Usuario para el Proceso de Selección de Especialidad XLIX ENARM",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/plazas/Plazas_sicco_4a_vuelta-mex-directa-Otras_Instituciones.pdf",
+      "label": "CATEGORÍA MEXICANA OTRAS INSTITUCIONES",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/plazas/Plazas_sicco_4a_vuelta-mex-directa-IMSS.pdf",
+      "label": "CATEGORÍA MEXICANA, INSTITUTO MEXICANO DEL SEGURO SOCIAL",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/plazas/Plazas_sicco_4a_vuelta-ext-directa-total.pdf",
+      "label": "CATEGORÍA EXTRANJERA",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/plazas/Plazas_sicco_3a_vuelta-mex-directa-Otras_Instituciones.pdf",
+      "label": "CATEGORÍA MEXICANA OTRAS INSTITUCIONES",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/plazas/Plazas_sicco_3a_vuelta-mex-directa-IMSS.pdf",
+      "label": "CATEGORÍA MEXICANA, INSTITUTO MEXICANO DEL SEGURO SOCIAL",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/plazas/Plazas_sicco_3a_vuelta-ext-directa-totaL.pdf",
+      "label": "CATEGORÍA EXTRANJERA",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/plazas/Plazas_sicco_2da_vuelta-mex-directa-Otras_Instituciones.pdf",
+      "label": "CATEGORÍA MEXICANA OTRAS INSTITUCIONES",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/plazas/Plazas_sicco_2da_vuelta-mex-directa-IMSS-2.pdf",
+      "label": "CATEGORÍA MEXICANA, INSTITUTO MEXICANO DEL SEGURO SOCIAL",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/plazas/Plazas_sicco_2da_vuelta-ext-directa-total.pdf",
+      "label": "CATEGORÍA EXTRANJERA",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/plazas/Plazas_sicco_plazas-mex_lugares-ext.pdf",
+      "label": "Lugares para Médicos Seleccionados - Categoría Mexicana y lugares Categoría Extranjera",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/plazas/Plazas_sicco_plazas-ext-directa.pdf",
+      "label": "Lugares para Médicos Seleccionados - Categoría Extranjera (R1), para Cursos de Especialización de Entrada Directa en Instituciones Públicas y Privadas",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/docs/2025-ENARM-Convocatoria_ADENDUM_Aprobada_por-CPEC.pdf",
+      "label": "CONVOCATORIA XLIX ENARM 2025 (ADDENDUM)",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/docs/2025-ENARM_Convocatoria.pdf",
+      "label": "Convocatoria XLIX ENARM 2025",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/plazas/Plazas_sicco_plazas-mex-directa-ext.pdf",
+      "label": "Instituciones",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2025/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/50-ENARM_Convocatoria.pdf",
+      "label": "Ver convocatoria",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/20261016-ENARM-guia_seleccion.pdf",
+      "label": "Guía del Usuario para la Plataforma de Selección de Especialidad \n\t\t\t\t\t\t\t\t\t 18:00 horas del 16 octubre 2026",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/2026-ENARM-instructivo_ingreso.pdf",
+      "label": "Instructivo para registro, ingreso y aplicación del examen \n\t\t\t\t\t\t\t\t\t  Después de las 17:00 horas del 11 de septiembre de 2026",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/1_secretaria-de-salud.pdf",
+      "label": "Secretaría de Salud - SS",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/2_imss.pdf",
+      "label": "Instituto Mexicano del Seguro Social - IMSS",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/3_issste.pdf",
+      "label": "Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado - ISSSTE",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/5_unam-facmed-medicina-deporte.pdf",
+      "label": "Universidad Nacional Autónoma de México - UNAM",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/6_pemex.pdf",
+      "label": "Petróleos Mexicanos - PEMEX",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/7_sndif-medicina-rehabilitacion.pdf",
+      "label": "C.N.M.A.I.C.R.I.E. Gaby Brimmer SNDIF",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/8_dif-hidalgo-hospital-del-nino.pdf",
+      "label": "Hospital del Niño DIF",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/9_dif-toluca-educacion-especial.pdf",
+      "label": "Centro de Rehabilitación y Educación Especial Toluca - CREE",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/10_instituto-materno-infantil-edomex.pdf",
+      "label": "Instituto Materno Infantil del Estado de México - IMIEM",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/11_issemym.pdf",
+      "label": "Instituto de Seguridad Social del Estado de México y Municipios - ISSEMYM",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/14_buap-hospital-universitario.pdf",
+      "label": "Hospital Universitario de Puebla",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/15_issstep-hospital-especialidades.pdf",
+      "label": "Instituto de Seguridad y Servicios Sociales de los Trabajadores al Servicio de los Poderes del Estado de Puebla - ISSSTEP",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/18_udem.pdf",
+      "label": "Hospital Christus Muguerza Del Parque",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/19_apec.pdf",
+      "label": "Asociación para Evitar la Ceguera en México Hospital \"Dr. Luis Sánchez Bulnes\"",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/21_centro-medico-abc-santa-fe.pdf",
+      "label": "Centro Médico ABC",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/24_medica-sur.pdf",
+      "label": "Médica Sur",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/25_hospital-nuestra-senora-de-la-luz.pdf",
+      "label": "Fundación Hospital Nuestra Señora de la Luz",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/26_hospital-angeles.pdf",
+      "label": "Hospital Ángeles Clínica Londres",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/27_hospital-angeles-2.pdf",
+      "label": "Hospital Ángeles Del Pedregal",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/28_hospital-angeles-3.pdf",
+      "label": "Hospital Ángeles Metropolitano",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/29_hospital-angeles-4.pdf",
+      "label": "Hospital Ángeles México",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/30_hospital-angeles-5.pdf",
+      "label": "Hospital Ángeles Mocel",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/31_sociedad-beneficiencia-espanola.pdf",
+      "label": "Hospital Español",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/32_star-medica.pdf",
+      "label": "Star Médica Infantil Privado",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/33_conde-de-valenciana.pdf",
+      "label": "Fundación de Asistencia Privada Conde de Valenciana",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/34_hospital-angeles-6.pdf",
+      "label": "Hospital Ángeles Del Carmen",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/36_hospital-angeles-7.pdf",
+      "label": "Hospital Ángeles Lomas",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/38_udem-2.pdf",
+      "label": "Christus Muguerza Hospital Conchita",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/39_udem-cristus-muguerza.pdf",
+      "label": "Hospital Christus Muguerza Alta Especialidad",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/43_instituto-mexicano-oftamologia.pdf",
+      "label": "Instituto Mexicano de Oftalmología",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/44_universidad-teleton.pdf",
+      "label": "Fundación Teletón México",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/46_defensa-escuela-militar-de-graduados.pdf",
+      "label": "Secretaría de la Defensa Nacional - Escuela Militar de Graduados de Sanidad",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/47_servicios-medicos-municipales-guadalajara.pdf",
+      "label": "Secretaría de Servicios Médicos del Gobierno Municipal de Guadalajara (Cruz Verde Guadalajara)",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/48_uanl-hospital-universitario-eluterio-gonzalez.pdf",
+      "label": "Facultad de Medicina y Hospital Universitario \"Dr. José Eleuterio González\"",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/49_hospital-sanjuan-de-dios-zapopan.pdf",
+      "label": "Hospital San Juan de Dios",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/51_instituto-de-la-vsi-on-hospital-la-carlota.pdf",
+      "label": "Instituto de la Visión, Hospital la Carlota",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/52_universidad-autonoma-coahuila-hospital-infantil-universitario.pdf",
+      "label": "Hospital Infantil Universitario de la UAC-FM Laguna",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/53_universidad-autonoma-coahuila-hospital-joaquin-del-valle-sanchez.pdf",
+      "label": "Hospital General Universitario Unidad Torreón \"Dr. Joaquín del Valle Sánchez\"",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/54_centro-medico-dalinde.pdf",
+      "label": "Centro Médico Dalinde",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/56_udem-hospital-ginequito.pdf",
+      "label": "Hospital de Ginecología y Obstetricia (Ginequito)",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/57_hospital-angeles-8.pdf",
+      "label": "Hospital Ángeles de Puebla",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/215_isssteson-dr-ignacio-sanchez.pdf",
+      "label": "Instituto de Seguridad y Servicios Social de los Trabajadores del Estado de Sonora (ISSSTESON) Centro Médico Dr. Ignacio Chávez",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/216_hospital-san-jose-hermosillo.pdf",
+      "label": "Hospital San José Hermosillo",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/217_hospital-hospitaria-nl.pdf",
+      "label": "Hospital y Centro Médico Hospitaria",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/218_udem-3.pdf",
+      "label": "Hospital Christus Muguerza Saltillo",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/219_star-medica-chihuahua.pdf",
+      "label": "Hospital Star Médica Chihuahua",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/220_grupo-ct-scanner-cardiologia.pdf",
+      "label": "CT SCANNER San Ángel",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/221_hospital-angeles-9.pdf",
+      "label": "Hospitales Ángeles Universidad",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/406_hospital-san-javier-jalisco.pdf",
+      "label": "Hospital San Javier",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/733_hospital-regional-alta-especialidad-zumpango.pdf",
+      "label": "Hospital Regional de Alta Especialidad de Zumpango",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/735_udem-hospital-nova.pdf",
+      "label": "Hospital Nova de Monterrey",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/736_hospital-angeles-10.pdf",
+      "label": "Hospital Ángeles Acoxpa",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/737_hospital-angeles-11.pdf",
+      "label": "Hospital Ángeles León",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/738_sanatorio-espanol.pdf",
+      "label": "Sanatorio Español de Torreón",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/739_hospital-san-angel-inn-universidad.pdf",
+      "label": "Hospital San Ángel Inn Universidad",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/740_hospital-angeles-chihuahua.pdf",
+      "label": "Hospital Ángeles Chihuahua",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/741_hospital-hx-queretaro.pdf",
+      "label": "Hospital H+ Querétaro",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/742_mac-hospitales-puebla.pdf",
+      "label": "Hospital MAC Puebla",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/743_tec-salud-nvo-leon.pdf",
+      "label": "Centro Médico Zambrano Hellion",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/cat_extranjera.pdf",
+      "label": "Plazas para Médicos Seleccionados - Categoría Extranjera (R1), para Cursos de Especialización de Entrada Directa",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/cat_mexicana.pdf",
+      "label": "Plazas para Médicos Seleccionados - Categoría Mexicana (R1), para Cursos de Especialización de Entrada Directa",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/plazas-_medicos-seleccionados-cat-extranjeros-otros.pdf",
+      "label": "Plazas para Médicos Seleccionados (R1), para Cursos de Especialización de Entrada Directa - CATEGORÍA EXTRANJERA",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/plazas-medicos-seleccionados-cat-mex-imss.pdf",
+      "label": "Plazas para Médicos Seleccionados - Categoría Mexicana (R1), para Cursos de Especialización de Entrada Directa - INSTITUTO MEXICANO DEL SEGURO SOCIAL",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/plazas-_medicos-seleccionados-cat-mex-issste.pdf",
+      "label": "Plazas para Médicos Seleccionados - Categoría Mexicana (R1), para Cursos de Especialización de Entrada Directa - INSTITUTO DE SEGURIDAD Y SERVICIOS SOCIALES DE LOS TRABAJADORES DEL ESTADO",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/plazas-_medicos-seleccionados-cat-mex-otros.pdf",
+      "label": "Plazas para Médicos Seleccionados (R1), para Cursos de Especialización de Entrada Directa - CATEGORÍA MEXICANA",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/plazas-_medicos-seleccionados-cat-mex-pemex.pdf",
+      "label": "Plazas para Médicos Seleccionados - Categoría Mexicana (R1), para Cursos de Especialización de Entrada Directa - PEMEX",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/plazas-_medicos-seleccionados-cat-mex-ssa.pdf",
+      "label": "Plazas para Médicos Seleccionados - Categoría Mexicana (R1), para Cursos de Especialización de Entrada Directa - SECRETARÍA DE SALUD",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    },
+    {
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2026/site/docs/plazas-becas_medicos-seleccionados-mex_ext.pdf",
+      "label": "Plazas y becas para Médicos Seleccionados - Categoría Mexicana y Lugar para Médicos Seleccionados - Categoría Extranjera",
+      "index": "https://cifrhs.salud.gob.mx/site1/enarm/2026/index.html",
+      "status": "discovered_not_validated"
+    }
+  ],
+  "errors": [],
+  "unchanged": 36,
+  "retried_at": "2026-10-31T17:12:02.459158+00:00"
+}

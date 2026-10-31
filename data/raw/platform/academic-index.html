@@ -1,0 +1,699 @@
+
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Informaci&oacute;n por A&ntilde;o ENARM | CIFRHS</title>
+		<meta name="description" content="Información por año del Examen Nacional para Aspirantes a Residencias Médicas ENARM.">
+		<meta name="author" content="Secretaría de Salud - CIFRHS">
+
+  <!-- CSS GOB.mx -->
+		<link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/images/favicon.ico" rel="shortcut icon">
+		<link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/styles/main.css" rel="stylesheet">
+
+  <!-- Estilos complementarios para la sección ENARM -->
+		<style>
+    :root {
+      --gobmx-verde: #13322b;
+      --gobmx-verde-claro: #235b4e;
+      --gobmx-dorado: #bc955c;
+      --gobmx-guinda: #9f2241;
+      --gobmx-gris: #f6f6f6;
+      --gobmx-texto: #333333;
+      --borde-suave: #dddddd;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      color: var(--gobmx-texto);
+      background-color: #ffffff;
+    }
+
+    a:focus,
+    button:focus,
+    input:focus {
+      outline: 3px solid rgba(188, 149, 92, .55);
+      outline-offset: 2px;
+    }
+
+    .skip-link {
+      position: absolute;
+      top: -48px;
+      left: 15px;
+      z-index: 9999;
+      padding: 10px 16px;
+      color: #ffffff;
+      background: var(--gobmx-verde);
+      border-radius: 0 0 6px 6px;
+      text-decoration: none;
+    }
+
+    .skip-link:focus {
+      top: 0;
+      color: #ffffff;
+    }
+
+    .page {
+      padding-bottom: 40px;
+    }
+
+    .navbar-institutional {
+      margin-bottom: 0;
+      border-radius: 0;
+      border: none;
+      background-color: var(--gobmx-verde);
+    }
+
+    .navbar-institutional .navbar-brand,
+    .navbar-institutional .navbar-nav > li > a {
+      color: #ffffff;
+      font-weight: 600;
+    }
+
+    .navbar-institutional .navbar-nav > li > a:hover,
+    .navbar-institutional .navbar-nav > li > a:focus,
+    .navbar-institutional .navbar-nav > .active > a,
+    .navbar-institutional .navbar-nav > .active > a:hover,
+    .navbar-institutional .navbar-nav > .active > a:focus {
+      color: #ffffff;
+      background-color: var(--gobmx-dorado);
+    }
+
+    .navbar-institutional .navbar-toggle {
+      border-color: rgba(255, 255, 255, .65);
+    }
+
+    .navbar-institutional .navbar-toggle .icon-bar {
+      background-color: #ffffff;
+    }
+
+    .hero-enarm {
+      position: relative;
+      padding: 48px 0 42px;
+      color: #ffffff;
+      background:
+        linear-gradient(135deg, rgba(19, 50, 43, .97), rgba(35, 91, 78, .94)),
+        radial-gradient(circle at 15% 20%, rgba(188, 149, 92, .24), transparent 30%);
+      overflow: hidden;
+    }
+
+    .hero-enarm:after {
+      content: "";
+      position: absolute;
+      right: -90px;
+      bottom: -140px;
+      width: 340px;
+      height: 340px;
+      border-radius: 50%;
+      background-color: rgba(188, 149, 92, .16);
+    }
+
+    .hero-enarm .container {
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-enarm .label-hero {
+      display: inline-block;
+      margin-bottom: 15px;
+      padding: 6px 14px;
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 700;
+      border: 1px solid rgba(255, 255, 255, .28);
+      border-radius: 24px;
+      background-color: rgba(255, 255, 255, .12);
+    }
+
+    .hero-enarm h1 {
+      margin-top: 0;
+      margin-bottom: 15px;
+      font-size: 42px;
+      font-weight: 700;
+      line-height: 1.15;
+    }
+
+    .hero-enarm p {
+      max-width: 860px;
+      margin-bottom: 0;
+      color: rgba(255, 255, 255, .94);
+      font-size: 20px;
+      line-height: 1.55;
+    }
+
+    .breadcrumb-wrapper {
+      padding: 16px 0;
+      background-color: var(--gobmx-gris);
+      border-bottom: 1px solid var(--borde-suave);
+    }
+
+    .breadcrumb {
+      margin-bottom: 0;
+      background-color: transparent;
+    }
+
+    .section-block {
+      padding: 40px 0;
+    }
+
+    .section-title {
+      margin-top: 0;
+      color: var(--gobmx-verde);
+      font-weight: 700;
+    }
+
+    .section-title:after {
+      content: "";
+      display: block;
+      width: 72px;
+      height: 4px;
+      margin-top: 12px;
+      background-color: var(--gobmx-dorado);
+      border-radius: 99px;
+    }
+
+    .intro-panel {
+      padding: 30px;
+      border: 1px solid var(--borde-suave);
+      border-radius: 8px;
+      background-color: #ffffff;
+      box-shadow: 0 8px 22px rgba(19, 50, 43, .08);
+    }
+
+    .filter-box {
+      padding: 20px;
+      border: 1px solid var(--borde-suave);
+      border-radius: 8px;
+      background-color: var(--gobmx-gris);
+    }
+
+    .filter-box label {
+      color: var(--gobmx-verde);
+    }
+
+    .filter-box .form-control {
+      min-height: 44px;
+      border-radius: 6px;
+    }
+
+    .reports-grid {
+      margin-top: 8px;
+    }
+
+    .report-card {
+      height: 60%;
+      min-height: 210px;
+      margin-bottom: 30px;
+      padding: 24px;
+      border: 1px solid var(--borde-suave);
+      border-radius: 8px;
+      background-color: #ffffff;
+      box-shadow: 0 6px 18px rgba(19, 50, 43, .06);
+      transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+    }
+
+    .report-card:hover,
+    .report-card:focus-within {
+      transform: translateY(-4px);
+      border-color: var(--gobmx-dorado);
+      box-shadow: 0 14px 28px rgba(19, 50, 43, .13);
+    }
+
+    .report-year {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--gobmx-guinda);
+      font-size: 34px;
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .report-edition {
+      display: block;
+      min-height: 24px;
+      margin-bottom: 12px;
+      color: var(--gobmx-verde);
+      font-size: 17px;
+      font-weight: 700;
+    }
+
+    .report-description {
+      min-height: 46px;
+      color: #555555;
+    }
+
+    
+    .metadata {
+      margin-top: 20px;
+      color: #666666;
+      font-size: 15px;
+    }
+
+    .site-footer-custom {
+      margin-top: 40px;
+      padding: 40px 0 30px;
+      color: #ffffff;
+      background-color: var(--gobmx-verde);
+    }
+
+    .site-footer-custom a {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+
+    .site-footer-custom h2 {
+      margin-top: 0;
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    .footer-line {
+      width: 78px;
+      height: 4px;
+      margin: 14px 0 18px;
+      background-color: var(--gobmx-dorado);
+      border-radius: 99px;
+    }
+
+    .back-to-top {
+      position: fixed;
+      right: 18px;
+      bottom: 18px;
+      z-index: 999;
+      display: none;
+      width: 46px;
+      height: 46px;
+      color: #ffffff;
+      border: none;
+      border-radius: 50%;
+      background-color: var(--gobmx-verde);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, .22);
+    }
+
+    .back-to-top.is-visible {
+      display: block;
+    }
+
+    @media (min-width: 1200px) {
+      .reports-grid .col-lg-3 {
+        width: 25%;
+      }
+    }
+
+    @media (max-width: 991px) {
+      .hero-enarm h1 {
+        font-size: 34px;
+      }
+
+      .hero-enarm p {
+        font-size: 18px;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .hero-enarm {
+        padding: 36px 0 34px;
+      }
+
+      .hero-enarm h1 {
+        font-size: 30px;
+      }
+
+      .hero-enarm p {
+        font-size: 16px;
+      }
+
+      .intro-panel {
+        padding: 22px;
+      }
+
+      .report-card {
+        min-height: auto;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      * {
+        transition: none !important;
+      }
+    }
+
+
+.sub-navbar .navbar-nav {
+  gap: 10px;
+}
+
+.sub-navbar .nav-item {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.sub-navbar .nav-link {
+  padding: 16px 16px;
+}
+
+ /* Evita que los textos del menú se partan en dos líneas */
+  .sub-navbar .navbar-nav {
+    flex-wrap: nowrap;
+    gap: 8px;
+  }
+
+  .sub-navbar .nav-item,
+  .sub-navbar .nav-link,
+  .sub-navbar .dropdown-toggle {
+    white-space: nowrap;
+  }
+
+  .sub-navbar .nav-link {
+    padding: 14px 12px;
+    font-size: 14px;
+    line-height: 1;
+  }
+
+  /* Permite que el menú colapse antes si no cabe en pantalla */
+  @media (max-width: 1199.98px) {
+    .sub-navbar .navbar-nav {
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+
+    .sub-navbar .nav-link {
+      padding: 12px 10px;
+      font-size: 13px;
+    }
+  }
+
+  @media (max-width: 991.98px) {
+    .sub-navbar .navbar-nav {
+      flex-wrap: nowrap;
+      gap: 0;
+    }
+
+    .sub-navbar .nav-link {
+      padding: 12px 15px;
+    }
+  }
+		</style>
+	</head>
+	<body>
+		<a class="skip-link" href="#contenido-principal">Saltar al contenido principal</a>
+
+  <!-- Navegación del micrositio -->
+		
+<nav class="navbar navbar-expand-lg navbar-dark bg-light sub-navbar fixed-top">
+  <div class="container">
+
+    <button type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#subNavBarDropdown"
+            aria-controls="subNavBarDropdown"
+            aria-expanded="false"
+            aria-label="Abrir o cerrar navegación">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <a class="navbar-brand sub-navbar text-nowrap" href="../../index.html">CIFRHS</a>
+
+    <div class="collapse navbar-collapse" id="subNavBarDropdown">
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-nowrap" href="#" id="menuCifrhs" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            CIFRHS
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="menuCifrhs">
+            <li><h2 class="dropdown-header">CIFRHS</h2></li>
+            <li><a class="dropdown-item" href="/site1/cifrhs/acerca_dela_cifrhs.html">Acerca de la CIFRHS</a></li>
+
+            <li><hr class="dropdown-divider"></li>
+            <li><h2 class="dropdown-header">Normatividad</h2></li>
+            <li><a class="dropdown-item" href="/site1/cifrhs/docs/cifrhs_acuerdo_creacion.pdf" target="_blank" rel="noopener">Acuerdo por el que se Crea</a></li>
+            <li><a class="dropdown-item" href="/site1/cifrhs/docs/cifrhs_reglamento.pdf" target="_blank" rel="noopener">Reglamento Interior</a></li>
+
+            <li><hr class="dropdown-divider"></li>
+            <li><h2 class="dropdown-header">Comit&eacute;s</h2></li>
+            <li><a class="dropdown-item" href="/site1/cifrhs/integrantes_cifrhs.html">Comit&eacute;s que integran a la CIFRHS</a></li>
+            <li><a class="dropdown-item" href="/site1/cifrhs/comite_integran_cifrhs.html">Funciones de los Comit&eacute;s que integran a la CIFRHS</a></li>
+            <li><a class="dropdown-item" href="/site1/cifrhs/comite_cpec.html">Comit&eacute; de Posgrado y Educaci&oacute;n Continua</a></li>
+            <li><a class="dropdown-item" href="/site1/cifrhs/comite_cestomatologia.html">Comit&eacute; de Estomatolog&iacute;a</a></li>
+            <li><a class="dropdown-item" href="/site1/cifrhs/comite_cepss.html">Comit&eacute; de Ense&ntilde;anza de Pregrado y Servicio Social</a></li>
+            <li><a class="dropdown-item" href="/site1/cifrhs/comite_cenfrhs.html">Comit&eacute; de Estudio de Necesidades de Formaci&oacute;n de Recursos Humanos para la Salud</a></li>
+            <li><a class="dropdown-item" href="/site1/cifrhs/comite_ce.html">Comit&eacute; de Evaluaci&oacute;n</a></li>
+            <li><a class="dropdown-item" href="/site1/cifrhs/comite_cft.html">Comit&eacute; de Formaci&oacute;n de T&eacute;cnicos</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active text-nowrap" href="#" id="menuEnarm" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">
+            ENARM
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="menuEnarm">
+            <li><a class="dropdown-item" href="/site1/enarm/reportes_academicos.html">Reportes Acad&eacute;micos</a></li>
+						<li><a class="dropdown-item" href="/site1/enarm/enarm_ia.html">Informaci&oacute;n por A&ntilde;o</a></li>
+            <li><a class="dropdown-item" href="/site1/enarm/enarm_aviso_privacidad.html">Aviso de Privacidad</a></li>
+            <li><a class="dropdown-item" href="/site1/enarm/enarm_convenios.html">Convenios de Transferencia</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-nowrap" href="https://dgces.salud.gob.mx/enare/">ENARE</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-nowrap" href="#" id="menuResidencias" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Residencias
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="menuResidencias">
+            <li><h2 class="dropdown-header">Normatividad</h2></li>
+            <li>
+              <a class="dropdown-item" href="/site1/residencias/docs/NOM-001-SSA-2023.pdf" target="_blank" rel="noopener">
+                NOM-001-SSA-2023, Educaci&oacute;n en salud. Organizaci&oacute;n y funcionamiento de residencias m&eacute;dicas.
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-nowrap" href="#" id="menuServicioSocial" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Servicio Social
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="menuServicioSocial">
+            <li><a class="dropdown-item" href="/site1/ssi/ss_investigacion.html">Servicio Social en Investigaci&eacute;n</a></li>
+            <li><a class="dropdown-item" href="/site1/ssi/ss_aviso_privacidad.html">Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-nowrap" href="#" id="menuInternado" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Internado
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="menuInternado">
+            <li><h2 class="dropdown-header">Normatividad</h2></li>
+            <li>
+              <a class="dropdown-item" href="/site1/residencias/docs/NOM-033-SSA-2023.pdf" target="_blank" rel="noopener">
+                NOM-033-SSA-2023, Educaci&eacute;n en salud. Campos cl&iacute;nicos para ciclos cl&iacute;nicos e internado de pregrado.
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-nowrap" href="#" id="menuPlanes" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Planes y Programas
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="menuPlanes">
+            <li><a class="dropdown-item" href="/site1/planes-programas/criterios_esenciales.html" target="_blank" rel="noopener">Gu&iacute;as de Evaluaci&oacute;n</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-nowrap" href="/site1/cifrhs/contacto.html" target="_blank" rel="noopener">Contacto</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+  <!-- Contenido -->
+		<main class="page" id="contenido-principal">
+    <!-- Ruta de navegación 
+    <div class="breadcrumb-wrapper">
+      <div class="container">
+        <ol class="breadcrumb" aria-label="Ruta de navegación">
+          <li><a href="https://cifrhs.salud.gob.mx/">Inicio</a></li>
+          <li><a href="https://cifrhs.salud.gob.mx/site1/enarm/">ENARM</a></li>
+          <li class="active">Reportes Académicos</li>
+        </ol>
+      </div>
+    </div>
+
+   Encabezado principal 
+    <section class="hero-enarm" aria-labelledby="titulo-pagina">
+      <div class="container">
+        <span class="label-hero">Información histórica ENARM</span>
+        <h1 id="titulo-pagina">Reportes Académicos ENARM</h1>
+        <p>Médicos inscritos, sustentantes, seleccionados y resultados por escuela o facultad de medicina.</p>
+      </div>
+    </section>-->
+
+    <!-- Introducción y filtro -->
+			<section class="section-block">
+				<div class="container">
+					<div class="intro-panel">
+						<div class="row">
+							<div class="col-md-8">
+								<h2 class="section-title">Informaci&oacute;n por a&ntilde;o</h2>
+								<p>Consulta la informaci&oacute;n hist&oacute;rica por a&ntilde;o del Examen Nacional para Aspirantes a Residencias M&eacute;dicas, del XLIX ENARM 2025 al XXV ENARM 2001.
+								</p>
+							</div>
+							<div class="col-md-4">
+								<div class="filter-box">
+									<label for="filtroReportes" class="control-label">Buscar por a&ntilde;o o edici&oacute;n</label>
+									<input id="filtroReportes" class="form-control" type="search" placeholder="Ejemplo: 2023, XLVII" aria-describedby="ayudaFiltro">
+									<p id="ayudaFiltro" class="help-block">Filtra las tarjetas disponibles en esta p&aacute;gina.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+    <!-- Listado de reportes -->
+			<section class="section-block" aria-labelledby="titulo-listado">
+				<div class="container">
+					<h2 id="titulo-listado" class="sr-only">Listado de informaci&oacute;n ENARM por a&ntilde;o</h2>
+					<div id="sinResultados" class="alert alert-warning hidden" role="status">
+						No se encontraron reportes con el criterio de b&uacute;squeda ingresado.
+					</div>
+					<div class="row reports-grid" id="contenedorReportes">
+          <!-- Tarjetas generadas por JavaScript. -->
+					</div>
+					<div class="metadata">
+						<p><strong>&Uacute;ltima modificaci&oacute;n:</strong> Lunes 24 de agosto de 2026</p>
+						<p>Fuente: informaci&eacute;n por a&ntilde;o publicada por CIFRHS para consulta hist&oacute;rica.</p>
+					</div>
+				</div>
+			</section>
+		</main>
+
+ 		<button type="button" class="back-to-top" id="btnSubir" aria-label="Regresar al inicio">?</button>
+
+  <!-- JS GOB.mx -->
+  <script src="https://framework-gb.cdn.gob.mx/gm/v3/assets/js/gobmx.js"></script>
+
+  <!-- JS complementario -->
+  <script>
+    var reportes = [
+      <!-- { anio: "2025", edicion: "XLIX ENARM", url: "https://cifrhs.salud.gob.mx/site1/enarm/2025/" },-->
+      <!--{ anio: "2024", edicion: "XLVIII ENARM", url: "https://cifrhs.salud.gob.mx/site1/enarm/2024/" },-->
+      { anio: "2023", edicion: "XLVII ENARM", url: "https://cifrhs.salud.gob.mx/site1/enarm/docs/reportes_academicos/E47_enarm_ra_2023.pdf" },
+      { anio: "2022", edicion: "XLVI ENARM", url: "https://cifrhs.salud.gob.mx/site1/enarm/docs/reportes_academicos/E46_enarm_ra_2022.pdf" },
+      { anio: "2021", edicion: "XLV ENARM", url: "https://cifrhs.salud.gob.mx/site1/enarm/docs/reportes_academicos/E45_enarm_ra_2021.pdf" },
+      { anio: "2020", edicion: "XLIV ENARM", url: "https://cifrhs.salud.gob.mx/site1/enarm/docs/reportes_academicos/E44_enarm_ra_2020.docx" },
+      { anio: "2019", edicion: "XLIII ENARM", url: "https://cifrhs.salud.gob.mx/site1/enarm/docs/reportes_academicos/E43_enarm_ra_2019.doc" },
+      { anio: "2018", edicion: "XLII ENARM", url: "https://cifrhs.salud.gob.mx/site1/enarm/docs/reportes_academicos/E42_enarm_ra_2018.doc" },
+      { anio: "2017", edicion: "XLI ENARM", url: "https://cifrhs.salud.gob.mx/site1/enarm/docs/reportes_academicos/E41_enarm_ra_2017.doc" },
+      { anio: "2016", edicion: "XL ENARM", url: "https://cifrhs.salud.gob.mx/site1/enarm/docs/reportes_academicos/E40_enarm_ra_2016.doc" },
+      { anio: "2015", edicion: "XXXIX ENARM", url: "https://cifrhs.salud.gob.mx/site1/enarm/docs/reportes_academicos/E39_enarm_ra_2015.doc" },
+      { anio: "2014", edicion: "XXXVIII ENARM", url: "https://cifrhs.salud.gob.mx/site1/enarm/docs/reportes_academicos/E38_enarm_ra_2014.doc" },
+      { anio: "2013", edicion: "XXXVII ENARM", url: "https://cifrhs.salud.gob.mx/site1/enarm/docs/reportes_academicos/E37_enarm_ra_2013.doc" },
+      { anio: "2012", edicion: "XXXVI ENARM", url: "https://cifrhs.salud.gob.mx/site1/enarm/docs/reportes_academicos/E36_enarm_ra_2012.doc" },
+      { anio: "2011", edicion: "XXXV ENARM", url: "https://cifrhs.salud.gob.mx/site1/enarm/docs/reportes_academicos/E35_enarm_ra_2011.doc" },
+      { anio: "2010", edicion: "XXXIV ENARM", url: "https://cifrhs.salud.gob.mx/site1/enarm/docs/reportes_academicos/E34_enarm-ra_2010.doc" },
+      { anio: "2009", edicion: "XXXIII ENARM", url: "https://cifrhs.salud.gob.mx/site1/enarm/docs/reportes_academicos/E33_enarm-ra_2009.doc" },
+      { anio: "2008", edicion: "XXXII ENARM", url: "https://cifrhs.salud.gob.mx/site1/enarm/docs/reportes_academicos/E32_enarm_ra_2008.doc" },
+      { anio: "2007", edicion: "XXXI ENARM", url: "https://cifrhs.salud.gob.mx/site1/enarm/docs/reportes_academicos/E31_enarm_ra_2007.doc" },
+      { anio: "2006", edicion: "XXX ENARM", url: "https://cifrhs.salud.gob.mx/site1/enarm/docs/reportes_academicos/E30_enarm_ra_2006.doc" },
+      { anio: "2005", edicion: "XXIX ENARM", url: "https://cifrhs.salud.gob.mx/site1/enarm/docs/reportes_academicos/E29_enarm_ra_2005.doc" },
+      { anio: "2004", edicion: "XXVIII ENARM", url: "https://cifrhs.salud.gob.mx/site1/enarm/docs/reportes_academicos/E28_enarm_ra_2004.doc" },
+      { anio: "2003", edicion: "XXVII ENARM", url: "https://cifrhs.salud.gob.mx/site1/enarm/docs/reportes_academicos/E27_enarm_ra_2003.doc" },
+      { anio: "2002", edicion: "XXVI ENARM", url: "https://cifrhs.salud.gob.mx/site1/enarm/docs/reportes_academicos/E26_enarm_ra_2002.doc" },
+      { anio: "2001", edicion: "XXV ENARM", url: "https://cifrhs.salud.gob.mx/site1/enarm/docs/reportes_academicos/E25_enarm_ra_2001.doc" }
+    ];
+
+    var contenedor = document.getElementById("contenedorReportes");
+    var filtro = document.getElementById("filtroReportes");
+    var sinResultados = document.getElementById("sinResultados");
+    var btnSubir = document.getElementById("btnSubir");
+
+    function crearTarjeta(reporte) {
+      var columna = document.createElement("article");
+      columna.className = "col-xs-12 col-sm-6 col-md-4 col-lg-3 reporte-item";
+      columna.setAttribute("data-search", (reporte.anio + " " + reporte.edicion).toLowerCase());
+
+      columna.innerHTML =
+        '<div class="report-card">' +
+          '<span class="report-year">' + reporte.anio + '</span>' +
+          '<span class="report-edition">' + reporte.edicion + '</span>' +
+          
+          '<button type="button" class="btn btn-primary" onclick="window.open(\'' + reporte.url + '\', \'_blank\', \'noopener\')" aria-label="Consultar información por año ' + reporte.edicion + ' ' + reporte.anio + '">' +
+  'Informaci&oacute;n' +
+'</button>' +
+        '</div>';
+
+      return columna;
+    }
+
+    function renderizarReportes() {
+      var fragmento = document.createDocumentFragment();
+
+      reportes.forEach(function(reporte) {
+        fragmento.appendChild(crearTarjeta(reporte));
+      });
+
+      contenedor.appendChild(fragmento);
+    }
+
+    function filtrarReportes() {
+      var termino = filtro.value.trim().toLowerCase();
+      var tarjetas = document.querySelectorAll(".reporte-item");
+      var visibles = 0;
+
+      tarjetas.forEach(function(tarjeta) {
+        var coincide = tarjeta.getAttribute("data-search").indexOf(termino) !== -1;
+        tarjeta.style.display = coincide ? "" : "none";
+
+        if (coincide) {
+          visibles++;
+        }
+      });
+
+      if (visibles > 0) {
+        sinResultados.classList.add("hidden");
+      } else {
+        sinResultados.classList.remove("hidden");
+      }
+    }
+
+    function controlarBotonSubir() {
+      if (window.pageYOffset > 420) {
+        btnSubir.classList.add("is-visible");
+      } else {
+        btnSubir.classList.remove("is-visible");
+      }
+    }
+
+    renderizarReportes();
+
+    filtro.addEventListener("input", filtrarReportes);
+
+    btnSubir.addEventListener("click", function() {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+
+    window.addEventListener("scroll", controlarBotonSubir);
+  </script>
+	</body>
+</html>

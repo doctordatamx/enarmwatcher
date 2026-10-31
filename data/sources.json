@@ -1,0 +1,62 @@
+[
+  {
+    "id": "cifrhs-2022-puntajes",
+    "year": 2022,
+    "edition": 46,
+    "issuer": "CIFRHS / Secretaría de Salud",
+    "url": "https://cifrhs.salud.gob.mx/site1/enarm/_2022/docs/E46_puntajes_max_min_2022.pdf",
+    "file": "data/raw/2022-puntajes.pdf",
+    "sha256": "9d17902d43b22efbca0656deb9003f2727af9e89d187c116d477322b2c503d4a",
+    "downloaded_at": "2026-10-31T16:13:20.116158+00:00",
+    "parser_version": "1.0.0",
+    "status": "downloaded",
+    "document_type": "Puntajes máximos y mínimos de seleccionados",
+    "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+    "cutoff": null
+  },
+  {
+    "id": "cifrhs-2023-puntajes",
+    "year": 2023,
+    "edition": 47,
+    "issuer": "CIFRHS / Secretaría de Salud",
+    "url": "https://cifrhs.salud.gob.mx/site1/enarm/2023/docs/E47_puntajes_max_min_2023.pdf",
+    "file": "data/raw/2023-puntajes.pdf",
+    "sha256": "5c52eb480ce4c1d4f68237ba3268c73dc03bebba506c78b2033a896424305ff1",
+    "downloaded_at": "2026-10-31T16:13:41.504454+00:00",
+    "parser_version": "1.0.0",
+    "status": "downloaded",
+    "document_type": "Puntajes máximos y mínimos de seleccionados",
+    "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+    "cutoff": null
+  },
+  {
+    "id": "cifrhs-2024-puntajes",
+    "year": 2024,
+    "edition": 48,
+    "issuer": "CIFRHS / Secretaría de Salud",
+    "url": "https://cifrhs.salud.gob.mx/site1/enarm/2024/docs/2024-ENARM-puntajes.pdf",
+    "file": "data/raw/2024-puntajes.pdf",
+    "sha256": "a2ad6017a937efbbb725eae2799f503e20bad3d1c0033c0f6cab8f9134288dde",
+    "downloaded_at": "2026-10-31T16:13:41.986123+00:00",
+    "parser_version": "1.0.0",
+    "status": "downloaded",
+    "document_type": "Puntajes máximos y mínimos de seleccionados",
+    "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+    "cutoff": null
+  },
+  {
+    "id": "cifrhs-2025-puntajes",
+    "year": 2025,
+    "edition": 49,
+    "issuer": "CIFRHS / Secretaría de Salud",
+    "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/docs/2025-ENARM-puntajes.pdf",
+    "file": "data/raw/2025-puntajes.pdf",
+    "sha256": "fbfd61bf21958c01b287cc79776447696d6d26ddf95d38b26116f366f4d202e9",
+    "downloaded_at": "2026-10-31T16:13:42.395916+00:00",
+    "parser_version": "1.0.0",
+    "status": "downloaded",
+    "document_type": "Puntajes máximos y mínimos de seleccionados",
+    "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+    "cutoff": null
+  }
+]

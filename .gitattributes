@@ -1,0 +1,9 @@
+* text=auto eol=lf
+data/raw/** -text -diff
+data/staging/** -text -diff
+*.pdf -text -diff
+*.doc -text -diff
+*.docx -text -diff
+*.png -text -diff
+*.jpg -text -diff
+*.geojson -text

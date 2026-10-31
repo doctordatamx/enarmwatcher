@@ -1,0 +1,3389 @@
+{
+  "version": "1.0.0",
+  "audit_date": "2026-10-31",
+  "population": "Categoría mexicana",
+  "years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "sources": [
+    {
+      "id": "cifrhs-2022-puntajes",
+      "year": 2022,
+      "edition": 46,
+      "issuer": "CIFRHS / Secretaría de Salud",
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/_2022/docs/E46_puntajes_max_min_2022.pdf",
+      "file": "data/raw/2022-puntajes.pdf",
+      "sha256": "9d17902d43b22efbca0656deb9003f2727af9e89d187c116d477322b2c503d4a",
+      "downloaded_at": "2026-10-31T16:13:20.116158+00:00",
+      "parser_version": "1.0.0",
+      "status": "extracted_checked",
+      "document_type": "Puntajes máximos y mínimos de seleccionados",
+      "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+      "cutoff": null
+    },
+    {
+      "id": "cifrhs-2023-puntajes",
+      "year": 2023,
+      "edition": 47,
+      "issuer": "CIFRHS / Secretaría de Salud",
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2023/docs/E47_puntajes_max_min_2023.pdf",
+      "file": "data/raw/2023-puntajes.pdf",
+      "sha256": "5c52eb480ce4c1d4f68237ba3268c73dc03bebba506c78b2033a896424305ff1",
+      "downloaded_at": "2026-10-31T16:13:41.504454+00:00",
+      "parser_version": "1.0.0",
+      "status": "extracted_checked",
+      "document_type": "Puntajes máximos y mínimos de seleccionados",
+      "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+      "cutoff": null
+    },
+    {
+      "id": "cifrhs-2024-puntajes",
+      "year": 2024,
+      "edition": 48,
+      "issuer": "CIFRHS / Secretaría de Salud",
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2024/docs/2024-ENARM-puntajes.pdf",
+      "file": "data/raw/2024-puntajes.pdf",
+      "sha256": "a2ad6017a937efbbb725eae2799f503e20bad3d1c0033c0f6cab8f9134288dde",
+      "downloaded_at": "2026-10-31T16:13:41.986123+00:00",
+      "parser_version": "1.0.0",
+      "status": "extracted_checked",
+      "document_type": "Puntajes máximos y mínimos de seleccionados",
+      "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+      "cutoff": null
+    },
+    {
+      "id": "cifrhs-2025-puntajes",
+      "year": 2025,
+      "edition": 49,
+      "issuer": "CIFRHS / Secretaría de Salud",
+      "url": "https://cifrhs.salud.gob.mx/site1/enarm/2025/docs/2025-ENARM-puntajes.pdf",
+      "file": "data/raw/2025-puntajes.pdf",
+      "sha256": "fbfd61bf21958c01b287cc79776447696d6d26ddf95d38b26116f366f4d202e9",
+      "downloaded_at": "2026-10-31T16:13:42.395916+00:00",
+      "parser_version": "1.0.0",
+      "status": "extracted_checked",
+      "document_type": "Puntajes máximos y mínimos de seleccionados",
+      "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+      "cutoff": null
+    }
+  ],
+  "specialties": [
+    {
+      "id": "anatomia-patologica",
+      "name": "Anatomía patológica",
+      "official_name": "ANATOMÍA PATOLÓGICA",
+      "records": [
+        {
+          "specialty_id": "anatomia-patologica",
+          "official_name": "ANATOMÍA PATOLÓGICA",
+          "year": 2022,
+          "minimum": 55.9233,
+          "maximum": 72.1254,
+          "original_values": [
+            "72.1254",
+            "55.9233"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2022-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "anatomia-patologica",
+          "official_name": "ANATOMÍA PATOLÓGICA",
+          "year": 2023,
+          "minimum": 56.9643,
+          "maximum": 76.4286,
+          "original_values": [
+            "76.4286",
+            "56.9643"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2023-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "anatomia-patologica",
+          "official_name": "ANATOMÍA PATOLÓGICA",
+          "year": 2024,
+          "minimum": 57.6786,
+          "maximum": 78.0357,
+          "original_values": [
+            "57.6786",
+            "78.0357"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2024-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "anatomia-patologica",
+          "official_name": "ANATOMÍA PATOLÓGICA",
+          "year": 2025,
+          "minimum": 52.5,
+          "maximum": 75.5714,
+          "original_values": [
+            "52.5000",
+            "75.5714"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2025-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        }
+      ],
+      "analytics": {
+        "trend": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "volatility": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "segmented": {
+          "available": false,
+          "reason": "Se requieren al menos 10 ediciones; hay 4."
+        },
+        "forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "demand_forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "pressure": null
+      }
+    },
+    {
+      "id": "anestesiologia",
+      "name": "Anestesiología",
+      "official_name": "ANESTESIOLOGÍA",
+      "records": [
+        {
+          "specialty_id": "anestesiologia",
+          "official_name": "ANESTESIOLOGÍA",
+          "year": 2022,
+          "minimum": 58.0139,
+          "maximum": 78.3972,
+          "original_values": [
+            "78.3972",
+            "58.0139"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2022-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "anestesiologia",
+          "official_name": "ANESTESIOLOGÍA",
+          "year": 2023,
+          "minimum": 58.3929,
+          "maximum": 78.9286,
+          "original_values": [
+            "78.9286",
+            "58.3929"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2023-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "anestesiologia",
+          "official_name": "ANESTESIOLOGÍA",
+          "year": 2024,
+          "minimum": 58.3929,
+          "maximum": 76.0714,
+          "original_values": [
+            "58.3929",
+            "76.0714"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2024-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "anestesiologia",
+          "official_name": "ANESTESIOLOGÍA",
+          "year": 2025,
+          "minimum": 49.1071,
+          "maximum": 77.25,
+          "original_values": [
+            "49.1071",
+            "77.2500"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2025-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        }
+      ],
+      "analytics": {
+        "trend": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "volatility": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "segmented": {
+          "available": false,
+          "reason": "Se requieren al menos 10 ediciones; hay 4."
+        },
+        "forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "demand_forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "pressure": null
+      }
+    },
+    {
+      "id": "audiologia-otoneurologia-y-foniatria",
+      "name": "Audiología, otoneurología y foniatría",
+      "official_name": "AUDIOLOGÍA, OTONEUROLOGÍA Y FONIATRÍA",
+      "records": [
+        {
+          "specialty_id": "audiologia-otoneurologia-y-foniatria",
+          "official_name": "AUDIOLOGÍA, OTONEUROLOGÍA Y FONIATRÍA",
+          "year": 2022,
+          "minimum": 58.885,
+          "maximum": 69.5122,
+          "original_values": [
+            "69.5122",
+            "58.8850"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2022-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "audiologia-otoneurologia-y-foniatria",
+          "official_name": "AUDIOLOGÍA, OTONEUROLOGÍA Y FONIATRÍA",
+          "year": 2023,
+          "minimum": 58.5714,
+          "maximum": 77.8571,
+          "original_values": [
+            "77.8571",
+            "58.5714"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2023-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "audiologia-otoneurologia-y-foniatria",
+          "official_name": "AUDIOLOGÍA, OTONEUROLOGÍA Y FONIATRÍA",
+          "year": 2024,
+          "minimum": 59.4643,
+          "maximum": 68.5714,
+          "original_values": [
+            "59.4643",
+            "68.5714"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2024-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "audiologia-otoneurologia-y-foniatria",
+          "official_name": "AUDIOLOGÍA, OTONEUROLOGÍA Y FONIATRÍA",
+          "year": 2025,
+          "minimum": 58.9286,
+          "maximum": 70.7143,
+          "original_values": [
+            "58.9286",
+            "70.7143"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2025-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        }
+      ],
+      "analytics": {
+        "trend": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "volatility": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "segmented": {
+          "available": false,
+          "reason": "Se requieren al menos 10 ediciones; hay 4."
+        },
+        "forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "demand_forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "pressure": null
+      }
+    },
+    {
+      "id": "calidad-de-la-atencion-clinica",
+      "name": "Calidad de la atención clínica",
+      "official_name": "CALIDAD DE LA ATENCIÓN CLÍNICA",
+      "records": [
+        {
+          "specialty_id": "calidad-de-la-atencion-clinica",
+          "official_name": "CALIDAD DE LA ATENCIÓN CLÍNICA",
+          "year": 2022,
+          "minimum": 53.3101,
+          "maximum": 68.1185,
+          "original_values": [
+            "68.1185",
+            "53.3101"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2022-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "calidad-de-la-atencion-clinica",
+          "official_name": "CALIDAD DE LA ATENCIÓN CLÍNICA",
+          "year": 2023,
+          "minimum": 43.9286,
+          "maximum": 68.75,
+          "original_values": [
+            "68.75",
+            "43.9286"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2023-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "calidad-de-la-atencion-clinica",
+          "official_name": "CALIDAD DE LA ATENCIÓN CLÍNICA",
+          "year": 2024,
+          "minimum": 51.0714,
+          "maximum": 68.2143,
+          "original_values": [
+            "51.0714",
+            "68.2143"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2024-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "calidad-de-la-atencion-clinica",
+          "official_name": "CALIDAD DE LA ATENCIÓN CLÍNICA",
+          "year": 2025,
+          "minimum": 43.0357,
+          "maximum": 67.5,
+          "original_values": [
+            "43.0357",
+            "67.5000"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2025-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        }
+      ],
+      "analytics": {
+        "trend": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "volatility": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "segmented": {
+          "available": false,
+          "reason": "Se requieren al menos 10 ediciones; hay 4."
+        },
+        "forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "demand_forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "pressure": null
+      }
+    },
+    {
+      "id": "cirugia-general",
+      "name": "Cirugía general",
+      "official_name": "CIRUGÍA GENERAL",
+      "records": [
+        {
+          "specialty_id": "cirugia-general",
+          "official_name": "CIRUGÍA GENERAL",
+          "year": 2022,
+          "minimum": 62.0209,
+          "maximum": 80.1394,
+          "original_values": [
+            "80.1394",
+            "62.0209"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2022-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "cirugia-general",
+          "official_name": "CIRUGÍA GENERAL",
+          "year": 2023,
+          "minimum": 63.2143,
+          "maximum": 81.6071,
+          "original_values": [
+            "81.6071",
+            "63.2143"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2023-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "cirugia-general",
+          "official_name": "CIRUGÍA GENERAL",
+          "year": 2024,
+          "minimum": 63.2143,
+          "maximum": 81.9643,
+          "original_values": [
+            "63.2143",
+            "81.9643"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2024-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "cirugia-general",
+          "official_name": "CIRUGÍA GENERAL",
+          "year": 2025,
+          "minimum": 59.1429,
+          "maximum": 81.25,
+          "original_values": [
+            "59.1429",
+            "81.2500"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2025-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        }
+      ],
+      "analytics": {
+        "trend": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "volatility": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "segmented": {
+          "available": false,
+          "reason": "Se requieren al menos 10 ediciones; hay 4."
+        },
+        "forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "demand_forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "pressure": null
+      }
+    },
+    {
+      "id": "epidemiologia",
+      "name": "Epidemiología",
+      "official_name": "EPIDEMIOLOGÍA",
+      "records": [
+        {
+          "specialty_id": "epidemiologia",
+          "official_name": "EPIDEMIOLOGÍA",
+          "year": 2022,
+          "minimum": 42.3345,
+          "maximum": 72.4739,
+          "original_values": [
+            "72.4739",
+            "42.3345"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2022-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "epidemiologia",
+          "official_name": "EPIDEMIOLOGÍA",
+          "year": 2023,
+          "minimum": 29.2857,
+          "maximum": 78.3929,
+          "original_values": [
+            "78.3929",
+            "29.2857"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2023-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "epidemiologia",
+          "official_name": "EPIDEMIOLOGÍA",
+          "year": 2024,
+          "minimum": 46.25,
+          "maximum": 76.4286,
+          "original_values": [
+            "46.2500",
+            "76.4286"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2024-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "epidemiologia",
+          "official_name": "EPIDEMIOLOGÍA",
+          "year": 2025,
+          "minimum": 43.2143,
+          "maximum": 70.1786,
+          "original_values": [
+            "43.2143",
+            "70.1786"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2025-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        }
+      ],
+      "analytics": {
+        "trend": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "volatility": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "segmented": {
+          "available": false,
+          "reason": "Se requieren al menos 10 ediciones; hay 4."
+        },
+        "forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "demand_forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "pressure": null
+      }
+    },
+    {
+      "id": "genetica-medica",
+      "name": "Genética médica",
+      "official_name": "GENÉTICA MÉDICA",
+      "records": [
+        {
+          "specialty_id": "genetica-medica",
+          "official_name": "GENÉTICA MÉDICA",
+          "year": 2022,
+          "minimum": 57.6655,
+          "maximum": 77.5261,
+          "original_values": [
+            "77.5261",
+            "57.6655"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2022-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "genetica-medica",
+          "official_name": "GENÉTICA MÉDICA",
+          "year": 2023,
+          "minimum": 57.6786,
+          "maximum": 75.5357,
+          "original_values": [
+            "75.5357",
+            "57.6786"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2023-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "genetica-medica",
+          "official_name": "GENÉTICA MÉDICA",
+          "year": 2024,
+          "minimum": 61.6071,
+          "maximum": 73.75,
+          "original_values": [
+            "61.6071",
+            "73.7500"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2024-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "genetica-medica",
+          "official_name": "GENÉTICA MÉDICA",
+          "year": 2025,
+          "minimum": 56.0714,
+          "maximum": 74.2857,
+          "original_values": [
+            "56.0714",
+            "74.2857"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2025-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        }
+      ],
+      "analytics": {
+        "trend": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "volatility": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "segmented": {
+          "available": false,
+          "reason": "Se requieren al menos 10 ediciones; hay 4."
+        },
+        "forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "demand_forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "pressure": null
+      }
+    },
+    {
+      "id": "geriatria",
+      "name": "Geriatría",
+      "official_name": "GERIATRÍA",
+      "records": [
+        {
+          "specialty_id": "geriatria",
+          "official_name": "GERIATRÍA",
+          "year": 2022,
+          "minimum": 56.2718,
+          "maximum": 78.5714,
+          "original_values": [
+            "78.5714",
+            "56.2718"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2022-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "geriatria",
+          "official_name": "GERIATRÍA",
+          "year": 2023,
+          "minimum": 56.9643,
+          "maximum": 77.8571,
+          "original_values": [
+            "77.8571",
+            "56.9643"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2023-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "geriatria",
+          "official_name": "GERIATRÍA",
+          "year": 2024,
+          "minimum": 57.1429,
+          "maximum": 78.2143,
+          "original_values": [
+            "57.1429",
+            "78.2143"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2024-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "geriatria",
+          "official_name": "GERIATRÍA",
+          "year": 2025,
+          "minimum": 56.4286,
+          "maximum": 78.75,
+          "original_values": [
+            "56.4286",
+            "78.7500"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2025-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        }
+      ],
+      "analytics": {
+        "trend": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "volatility": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "segmented": {
+          "available": false,
+          "reason": "Se requieren al menos 10 ediciones; hay 4."
+        },
+        "forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "demand_forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "pressure": null
+      }
+    },
+    {
+      "id": "ginecologia-y-obstetricia",
+      "name": "Ginecología y obstetricia",
+      "official_name": "GINECOLOGÍA Y OBSTETRICIA",
+      "records": [
+        {
+          "specialty_id": "ginecologia-y-obstetricia",
+          "official_name": "GINECOLOGÍA Y OBSTETRICIA",
+          "year": 2022,
+          "minimum": 59.4077,
+          "maximum": 78.223,
+          "original_values": [
+            "78.2230",
+            "59.4077"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2022-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "ginecologia-y-obstetricia",
+          "official_name": "GINECOLOGÍA Y OBSTETRICIA",
+          "year": 2023,
+          "minimum": 59.8214,
+          "maximum": 80.0,
+          "original_values": [
+            "80",
+            "59.8214"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2023-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "ginecologia-y-obstetricia",
+          "official_name": "GINECOLOGÍA Y OBSTETRICIA",
+          "year": 2024,
+          "minimum": 60.3571,
+          "maximum": 77.8571,
+          "original_values": [
+            "60.3571",
+            "77.8571"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2024-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "ginecologia-y-obstetricia",
+          "official_name": "GINECOLOGÍA Y OBSTETRICIA",
+          "year": 2025,
+          "minimum": 53.2143,
+          "maximum": 79.8214,
+          "original_values": [
+            "53.2143",
+            "79.8214"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2025-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        }
+      ],
+      "analytics": {
+        "trend": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "volatility": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "segmented": {
+          "available": false,
+          "reason": "Se requieren al menos 10 ediciones; hay 4."
+        },
+        "forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "demand_forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "pressure": null
+      }
+    },
+    {
+      "id": "imagenologia-diagnostica-y-terapeutica",
+      "name": "Imagenología diagnóstica y terapéutica",
+      "official_name": "IMAGENOLOGÍA DIAGNÓSTICA Y TERAPÉUTICA",
+      "records": [
+        {
+          "specialty_id": "imagenologia-diagnostica-y-terapeutica",
+          "official_name": "IMAGENOLOGÍA DIAGNÓSTICA Y TERAPÉUTICA",
+          "year": 2022,
+          "minimum": 57.3171,
+          "maximum": 76.1324,
+          "original_values": [
+            "76.1324",
+            "57.3171"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2022-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "imagenologia-diagnostica-y-terapeutica",
+          "official_name": "IMAGENOLOGÍA DIAGNÓSTICA Y TERAPÉUTICA",
+          "year": 2023,
+          "minimum": 57.6786,
+          "maximum": 81.25,
+          "original_values": [
+            "81.25",
+            "57.6786"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2023-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "imagenologia-diagnostica-y-terapeutica",
+          "official_name": "IMAGENOLOGÍA DIAGNÓSTICA Y TERAPÉUTICA",
+          "year": 2024,
+          "minimum": 58.0357,
+          "maximum": 77.5,
+          "original_values": [
+            "58.0357",
+            "77.5000"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2024-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "imagenologia-diagnostica-y-terapeutica",
+          "official_name": "IMAGENOLOGÍA DIAGNÓSTICA Y TERAPÉUTICA",
+          "year": 2025,
+          "minimum": 48.3929,
+          "maximum": 76.6071,
+          "original_values": [
+            "48.3929",
+            "76.6071"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2025-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        }
+      ],
+      "analytics": {
+        "trend": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "volatility": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "segmented": {
+          "available": false,
+          "reason": "Se requieren al menos 10 ediciones; hay 4."
+        },
+        "forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "demand_forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "pressure": null
+      }
+    },
+    {
+      "id": "medicina-de-la-actividad-fisica-y-deportiva",
+      "name": "Medicina de la actividad física y deportiva",
+      "official_name": "MEDICINA DE LA ACTIVIDAD FÍSICA Y DEPORTIVA",
+      "records": [
+        {
+          "specialty_id": "medicina-de-la-actividad-fisica-y-deportiva",
+          "official_name": "MEDICINA DE LA ACTIVIDAD FÍSICA Y DEPORTIVA",
+          "year": 2022,
+          "minimum": 63.9373,
+          "maximum": 73.6934,
+          "original_values": [
+            "73.6934",
+            "63.9373"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2022-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "medicina-de-la-actividad-fisica-y-deportiva",
+          "official_name": "MEDICINA DE LA ACTIVIDAD FÍSICA Y DEPORTIVA",
+          "year": 2023,
+          "minimum": 68.0357,
+          "maximum": 76.7857,
+          "original_values": [
+            "76.7857",
+            "68.0357"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2023-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "medicina-de-la-actividad-fisica-y-deportiva",
+          "official_name": "MEDICINA DE LA ACTIVIDAD FÍSICA Y DEPORTIVA",
+          "year": 2024,
+          "minimum": 68.2143,
+          "maximum": 73.75,
+          "original_values": [
+            "68.2143",
+            "73.7500"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2024-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "medicina-de-la-actividad-fisica-y-deportiva",
+          "official_name": "MEDICINA DE LA ACTIVIDAD FÍSICA Y DEPORTIVA",
+          "year": 2025,
+          "minimum": 66.0714,
+          "maximum": 74.4643,
+          "original_values": [
+            "66.0714",
+            "74.4643"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2025-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        }
+      ],
+      "analytics": {
+        "trend": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "volatility": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "segmented": {
+          "available": false,
+          "reason": "Se requieren al menos 10 ediciones; hay 4."
+        },
+        "forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "demand_forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "pressure": null
+      }
+    },
+    {
+      "id": "medicina-de-rehabilitacion",
+      "name": "Medicina de rehabilitación",
+      "official_name": "MEDICINA DE REHABILITACIÓN",
+      "records": [
+        {
+          "specialty_id": "medicina-de-rehabilitacion",
+          "official_name": "MEDICINA DE REHABILITACIÓN",
+          "year": 2022,
+          "minimum": 56.2718,
+          "maximum": 73.9965,
+          "original_values": [
+            "73.9965",
+            "56.2718"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2022-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "medicina-de-rehabilitacion",
+          "official_name": "MEDICINA DE REHABILITACIÓN",
+          "year": 2023,
+          "minimum": 57.8571,
+          "maximum": 77.1429,
+          "original_values": [
+            "77.1429",
+            "57.8571"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2023-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "medicina-de-rehabilitacion",
+          "official_name": "MEDICINA DE REHABILITACIÓN",
+          "year": 2024,
+          "minimum": 58.75,
+          "maximum": 71.7857,
+          "original_values": [
+            "58.7500",
+            "71.7857"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2024-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "medicina-de-rehabilitacion",
+          "official_name": "MEDICINA DE REHABILITACIÓN",
+          "year": 2025,
+          "minimum": 57.5,
+          "maximum": 75.7143,
+          "original_values": [
+            "57.5000",
+            "75.7143"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2025-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        }
+      ],
+      "analytics": {
+        "trend": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "volatility": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "segmented": {
+          "available": false,
+          "reason": "Se requieren al menos 10 ediciones; hay 4."
+        },
+        "forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "demand_forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "pressure": null
+      }
+    },
+    {
+      "id": "medicina-de-urgencias",
+      "name": "Medicina de urgencias",
+      "official_name": "MEDICINA DE URGENCIAS",
+      "records": [
+        {
+          "specialty_id": "medicina-de-urgencias",
+          "official_name": "MEDICINA DE URGENCIAS",
+          "year": 2022,
+          "minimum": 38.8502,
+          "maximum": 70.5575,
+          "original_values": [
+            "70.5575",
+            "38.8502"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2022-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "medicina-de-urgencias",
+          "official_name": "MEDICINA DE URGENCIAS",
+          "year": 2023,
+          "minimum": 23.75,
+          "maximum": 80.8929,
+          "original_values": [
+            "80.8929",
+            "23.75"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2023-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "medicina-de-urgencias",
+          "official_name": "MEDICINA DE URGENCIAS",
+          "year": 2024,
+          "minimum": 47.6786,
+          "maximum": 73.5714,
+          "original_values": [
+            "47.6786",
+            "73.5714"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2024-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "medicina-de-urgencias",
+          "official_name": "MEDICINA DE URGENCIAS",
+          "year": 2025,
+          "minimum": 43.0357,
+          "maximum": 68.75,
+          "original_values": [
+            "43.0357",
+            "68.7500"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2025-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        }
+      ],
+      "analytics": {
+        "trend": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "volatility": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "segmented": {
+          "available": false,
+          "reason": "Se requieren al menos 10 ediciones; hay 4."
+        },
+        "forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "demand_forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "pressure": null
+      }
+    },
+    {
+      "id": "medicina-del-trabajo-y-ambiental",
+      "name": "Medicina del trabajo y ambiental",
+      "official_name": "MEDICINA DEL TRABAJO Y AMBIENTAL",
+      "records": [
+        {
+          "specialty_id": "medicina-del-trabajo-y-ambiental",
+          "official_name": "MEDICINA DEL TRABAJO Y AMBIENTAL",
+          "year": 2022,
+          "minimum": 54.1812,
+          "maximum": 75.4355,
+          "original_values": [
+            "75.4355",
+            "54.1812"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2022-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "medicina-del-trabajo-y-ambiental",
+          "official_name": "MEDICINA DEL TRABAJO Y AMBIENTAL",
+          "year": 2023,
+          "minimum": 54.4643,
+          "maximum": 77.6786,
+          "original_values": [
+            "77.6786",
+            "54.4643"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2023-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "medicina-del-trabajo-y-ambiental",
+          "official_name": "MEDICINA DEL TRABAJO Y AMBIENTAL",
+          "year": 2024,
+          "minimum": 55.7143,
+          "maximum": 70.5357,
+          "original_values": [
+            "55.7143",
+            "70.5357"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2024-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "medicina-del-trabajo-y-ambiental",
+          "official_name": "MEDICINA DEL TRABAJO Y AMBIENTAL",
+          "year": 2025,
+          "minimum": 43.9643,
+          "maximum": 72.5357,
+          "original_values": [
+            "43.9643",
+            "72.5357"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2025-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        }
+      ],
+      "analytics": {
+        "trend": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "volatility": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "segmented": {
+          "available": false,
+          "reason": "Se requieren al menos 10 ediciones; hay 4."
+        },
+        "forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "demand_forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "pressure": null
+      }
+    },
+    {
+      "id": "medicina-familiar",
+      "name": "Medicina familiar",
+      "official_name": "MEDICINA FAMILIAR",
+      "records": [
+        {
+          "specialty_id": "medicina-familiar",
+          "official_name": "MEDICINA FAMILIAR",
+          "year": 2022,
+          "minimum": 37.6307,
+          "maximum": 73.6934,
+          "original_values": [
+            "73.6934",
+            "37.6307"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2022-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "medicina-familiar",
+          "official_name": "MEDICINA FAMILIAR",
+          "year": 2023,
+          "minimum": 31.7857,
+          "maximum": 72.5,
+          "original_values": [
+            "72.5",
+            "31.7857"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2023-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "medicina-familiar",
+          "official_name": "MEDICINA FAMILIAR",
+          "year": 2024,
+          "minimum": 45.1786,
+          "maximum": 73.3214,
+          "original_values": [
+            "45.1786",
+            "73.3214"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2024-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "medicina-familiar",
+          "official_name": "MEDICINA FAMILIAR",
+          "year": 2025,
+          "minimum": 43.0357,
+          "maximum": 84.6429,
+          "original_values": [
+            "43.0357",
+            "84.6429"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2025-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        }
+      ],
+      "analytics": {
+        "trend": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "volatility": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "segmented": {
+          "available": false,
+          "reason": "Se requieren al menos 10 ediciones; hay 4."
+        },
+        "forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "demand_forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "pressure": null
+      }
+    },
+    {
+      "id": "medicina-interna",
+      "name": "Medicina interna",
+      "official_name": "MEDICINA INTERNA",
+      "records": [
+        {
+          "specialty_id": "medicina-interna",
+          "official_name": "MEDICINA INTERNA",
+          "year": 2022,
+          "minimum": 58.885,
+          "maximum": 81.8815,
+          "original_values": [
+            "81.8815",
+            "58.8850"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2022-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "medicina-interna",
+          "official_name": "MEDICINA INTERNA",
+          "year": 2023,
+          "minimum": 59.2857,
+          "maximum": 81.6071,
+          "original_values": [
+            "81.6071",
+            "59.2857"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2023-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "medicina-interna",
+          "official_name": "MEDICINA INTERNA",
+          "year": 2024,
+          "minimum": 59.4643,
+          "maximum": 82.5,
+          "original_values": [
+            "59.4643",
+            "82.5000"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2024-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "medicina-interna",
+          "official_name": "MEDICINA INTERNA",
+          "year": 2025,
+          "minimum": 51.25,
+          "maximum": 83.3929,
+          "original_values": [
+            "51.2500",
+            "83.3929"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2025-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        }
+      ],
+      "analytics": {
+        "trend": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "volatility": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "segmented": {
+          "available": false,
+          "reason": "Se requieren al menos 10 ediciones; hay 4."
+        },
+        "forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "demand_forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "pressure": null
+      }
+    },
+    {
+      "id": "medicina-legal",
+      "name": "Medicina legal",
+      "official_name": "MEDICINA LEGAL",
+      "records": [
+        {
+          "specialty_id": "medicina-legal",
+          "official_name": "MEDICINA LEGAL",
+          "year": 2022,
+          "minimum": 57.3171,
+          "maximum": 62.0209,
+          "original_values": [
+            "62.0209",
+            "57.3171"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2022-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        }
+      ],
+      "analytics": {
+        "trend": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 1."
+        },
+        "volatility": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 1."
+        },
+        "segmented": {
+          "available": false,
+          "reason": "Se requieren al menos 10 ediciones; hay 1."
+        },
+        "forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 1."
+        },
+        "demand_forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 1."
+        },
+        "pressure": null
+      }
+    },
+    {
+      "id": "medicina-nuclear-e-imagenologia-molecular",
+      "name": "Medicina nuclear e imagenología molecular",
+      "official_name": "MEDICINA NUCLEAR E IMAGENOLOGÍA MOLECULAR",
+      "records": [
+        {
+          "specialty_id": "medicina-nuclear-e-imagenologia-molecular",
+          "official_name": "MEDICINA NUCLEAR E IMAGENOLOGÍA MOLECULAR",
+          "year": 2022,
+          "minimum": 57.8397,
+          "maximum": 69.338,
+          "original_values": [
+            "69.3380",
+            "57.8397"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2022-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "medicina-nuclear-e-imagenologia-molecular",
+          "official_name": "MEDICINA NUCLEAR E IMAGENOLOGÍA MOLECULAR",
+          "year": 2023,
+          "minimum": 57.3214,
+          "maximum": 68.2143,
+          "original_values": [
+            "68.2143",
+            "57.3214"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2023-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "medicina-nuclear-e-imagenologia-molecular",
+          "official_name": "MEDICINA NUCLEAR E IMAGENOLOGÍA MOLECULAR",
+          "year": 2024,
+          "minimum": 59.6429,
+          "maximum": 71.7857,
+          "original_values": [
+            "59.6429",
+            "71.7857"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2024-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "medicina-nuclear-e-imagenologia-molecular",
+          "official_name": "MEDICINA NUCLEAR E IMAGENOLOGÍA MOLECULAR",
+          "year": 2025,
+          "minimum": 54.4643,
+          "maximum": 74.6429,
+          "original_values": [
+            "54.4643",
+            "74.6429"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2025-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        }
+      ],
+      "analytics": {
+        "trend": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "volatility": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "segmented": {
+          "available": false,
+          "reason": "Se requieren al menos 10 ediciones; hay 4."
+        },
+        "forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "demand_forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "pressure": null
+      }
+    },
+    {
+      "id": "medicina-paliativa",
+      "name": "Medicina paliativa",
+      "official_name": "MEDICINA PALIATIVA",
+      "records": [
+        {
+          "specialty_id": "medicina-paliativa",
+          "official_name": "MEDICINA PALIATIVA",
+          "year": 2024,
+          "minimum": 67.5,
+          "maximum": 68.75,
+          "original_values": [
+            "67.5000",
+            "68.7500"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2024-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "medicina-paliativa",
+          "official_name": "MEDICINA PALIATIVA",
+          "year": 2025,
+          "minimum": 59.3929,
+          "maximum": 67.1429,
+          "original_values": [
+            "59.3929",
+            "67.1429"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2025-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        }
+      ],
+      "analytics": {
+        "trend": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 2."
+        },
+        "volatility": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 2."
+        },
+        "segmented": {
+          "available": false,
+          "reason": "Se requieren al menos 10 ediciones; hay 2."
+        },
+        "forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 2."
+        },
+        "demand_forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 2."
+        },
+        "pressure": null
+      }
+    },
+    {
+      "id": "medicina-preventiva",
+      "name": "Medicina preventiva",
+      "official_name": "MEDICINA PREVENTIVA",
+      "records": [
+        {
+          "specialty_id": "medicina-preventiva",
+          "official_name": "MEDICINA PREVENTIVA",
+          "year": 2022,
+          "minimum": 60.6272,
+          "maximum": 67.9443,
+          "original_values": [
+            "67.9443",
+            "60.6272"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2022-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "medicina-preventiva",
+          "official_name": "MEDICINA PREVENTIVA",
+          "year": 2023,
+          "minimum": 54.1071,
+          "maximum": 69.8214,
+          "original_values": [
+            "69.8214",
+            "54.1071"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2023-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "medicina-preventiva",
+          "official_name": "MEDICINA PREVENTIVA",
+          "year": 2024,
+          "minimum": 58.2143,
+          "maximum": 64.4643,
+          "original_values": [
+            "58.2143",
+            "64.4643"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2024-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "medicina-preventiva",
+          "official_name": "MEDICINA PREVENTIVA",
+          "year": 2025,
+          "minimum": 55.7143,
+          "maximum": 64.8214,
+          "original_values": [
+            "55.7143",
+            "64.8214"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2025-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        }
+      ],
+      "analytics": {
+        "trend": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "volatility": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "segmented": {
+          "available": false,
+          "reason": "Se requieren al menos 10 ediciones; hay 4."
+        },
+        "forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "demand_forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "pressure": null
+      }
+    },
+    {
+      "id": "neumologia",
+      "name": "Neumología",
+      "official_name": "NEUMOLOGÍA",
+      "records": [
+        {
+          "specialty_id": "neumologia",
+          "official_name": "NEUMOLOGÍA",
+          "year": 2022,
+          "minimum": 58.7108,
+          "maximum": 79.0941,
+          "original_values": [
+            "79.0941",
+            "58.7108"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2022-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "neumologia",
+          "official_name": "NEUMOLOGÍA",
+          "year": 2023,
+          "minimum": 59.4643,
+          "maximum": 79.2857,
+          "original_values": [
+            "79.2857",
+            "59.4643"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2023-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "neumologia",
+          "official_name": "NEUMOLOGÍA",
+          "year": 2024,
+          "minimum": 60.1786,
+          "maximum": 74.4643,
+          "original_values": [
+            "60.1786",
+            "74.4643"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2024-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "neumologia",
+          "official_name": "NEUMOLOGÍA",
+          "year": 2025,
+          "minimum": 57.6786,
+          "maximum": 79.1071,
+          "original_values": [
+            "57.6786",
+            "79.1071"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2025-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        }
+      ],
+      "analytics": {
+        "trend": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "volatility": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "segmented": {
+          "available": false,
+          "reason": "Se requieren al menos 10 ediciones; hay 4."
+        },
+        "forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "demand_forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "pressure": null
+      }
+    },
+    {
+      "id": "oftalmologia",
+      "name": "Oftalmología",
+      "official_name": "OFTALMOLOGÍA",
+      "records": [
+        {
+          "specialty_id": "oftalmologia",
+          "official_name": "OFTALMOLOGÍA",
+          "year": 2022,
+          "minimum": 67.9443,
+          "maximum": 77.5261,
+          "original_values": [
+            "77.5261",
+            "67.9443"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2022-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "oftalmologia",
+          "official_name": "OFTALMOLOGÍA",
+          "year": 2023,
+          "minimum": 70.0,
+          "maximum": 82.6786,
+          "original_values": [
+            "82.6786",
+            "70"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2023-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "oftalmologia",
+          "official_name": "OFTALMOLOGÍA",
+          "year": 2024,
+          "minimum": 68.9286,
+          "maximum": 80.8929,
+          "original_values": [
+            "68.9286",
+            "80.8929"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2024-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "oftalmologia",
+          "official_name": "OFTALMOLOGÍA",
+          "year": 2025,
+          "minimum": 63.0357,
+          "maximum": 85.7143,
+          "original_values": [
+            "63.0357",
+            "85.7143"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2025-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        }
+      ],
+      "analytics": {
+        "trend": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "volatility": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "segmented": {
+          "available": false,
+          "reason": "Se requieren al menos 10 ediciones; hay 4."
+        },
+        "forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "demand_forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "pressure": null
+      }
+    },
+    {
+      "id": "otorrinolaringologia-y-cirugia-de-cabeza-y-cuello",
+      "name": "Otorrinolaringología y cirugía de cabeza y cuello",
+      "official_name": "OTORRINOLARINGOLOGÍA Y CIRUGÍA DE CABEZA Y CUELLO",
+      "records": [
+        {
+          "specialty_id": "otorrinolaringologia-y-cirugia-de-cabeza-y-cuello",
+          "official_name": "OTORRINOLARINGOLOGÍA Y CIRUGÍA DE CABEZA Y CUELLO",
+          "year": 2022,
+          "minimum": 68.2927,
+          "maximum": 77.7003,
+          "original_values": [
+            "77.7003",
+            "68.2927"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2022-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "otorrinolaringologia-y-cirugia-de-cabeza-y-cuello",
+          "official_name": "OTORRINOLARINGOLOGÍA Y CIRUGÍA DE CABEZA Y CUELLO",
+          "year": 2023,
+          "minimum": 70.3571,
+          "maximum": 80.7143,
+          "original_values": [
+            "80.7143",
+            "70.3571"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2023-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "otorrinolaringologia-y-cirugia-de-cabeza-y-cuello",
+          "official_name": "OTORRINOLARINGOLOGÍA Y CIRUGÍA DE CABEZA Y CUELLO",
+          "year": 2024,
+          "minimum": 70.0,
+          "maximum": 80.1786,
+          "original_values": [
+            "70.0000",
+            "80.1786"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2024-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "otorrinolaringologia-y-cirugia-de-cabeza-y-cuello",
+          "official_name": "OTORRINOLARINGOLOGÍA Y CIRUGÍA DE CABEZA Y CUELLO",
+          "year": 2025,
+          "minimum": 64.2857,
+          "maximum": 83.25,
+          "original_values": [
+            "64.2857",
+            "83.2500"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2025-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        }
+      ],
+      "analytics": {
+        "trend": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "volatility": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "segmented": {
+          "available": false,
+          "reason": "Se requieren al menos 10 ediciones; hay 4."
+        },
+        "forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "demand_forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "pressure": null
+      }
+    },
+    {
+      "id": "patologia-clinica",
+      "name": "Patología clínica",
+      "official_name": "PATOLOGÍA CLÍNICA",
+      "records": [
+        {
+          "specialty_id": "patologia-clinica",
+          "official_name": "PATOLOGÍA CLÍNICA",
+          "year": 2022,
+          "minimum": 54.007,
+          "maximum": 71.6028,
+          "original_values": [
+            "71.6028",
+            "54.0070"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2022-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "patologia-clinica",
+          "official_name": "PATOLOGÍA CLÍNICA",
+          "year": 2023,
+          "minimum": 54.2857,
+          "maximum": 72.8571,
+          "original_values": [
+            "72.8571",
+            "54.2857"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2023-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "patologia-clinica",
+          "official_name": "PATOLOGÍA CLÍNICA",
+          "year": 2024,
+          "minimum": 55.3571,
+          "maximum": 70.0,
+          "original_values": [
+            "55.3571",
+            "70.0000"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2024-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "patologia-clinica",
+          "official_name": "PATOLOGÍA CLÍNICA",
+          "year": 2025,
+          "minimum": 43.75,
+          "maximum": 72.3571,
+          "original_values": [
+            "43.7500",
+            "72.3571"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2025-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        }
+      ],
+      "analytics": {
+        "trend": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "volatility": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "segmented": {
+          "available": false,
+          "reason": "Se requieren al menos 10 ediciones; hay 4."
+        },
+        "forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "demand_forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "pressure": null
+      }
+    },
+    {
+      "id": "pediatria",
+      "name": "Pediatría",
+      "official_name": "PEDIATRÍA",
+      "records": [
+        {
+          "specialty_id": "pediatria",
+          "official_name": "PEDIATRÍA",
+          "year": 2022,
+          "minimum": 58.1882,
+          "maximum": 78.5714,
+          "original_values": [
+            "78.5714",
+            "58.1882"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2022-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "pediatria",
+          "official_name": "PEDIATRÍA",
+          "year": 2023,
+          "minimum": 58.3929,
+          "maximum": 83.3929,
+          "original_values": [
+            "83.3929",
+            "58.3929"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2023-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "pediatria",
+          "official_name": "PEDIATRÍA",
+          "year": 2024,
+          "minimum": 58.5714,
+          "maximum": 80.3571,
+          "original_values": [
+            "58.5714",
+            "80.3571"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2024-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "pediatria",
+          "official_name": "PEDIATRÍA",
+          "year": 2025,
+          "minimum": 53.0357,
+          "maximum": 79.8214,
+          "original_values": [
+            "53.0357",
+            "79.8214"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2025-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        }
+      ],
+      "analytics": {
+        "trend": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "volatility": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "segmented": {
+          "available": false,
+          "reason": "Se requieren al menos 10 ediciones; hay 4."
+        },
+        "forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "demand_forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "pressure": null
+      }
+    },
+    {
+      "id": "psiquiatria",
+      "name": "Psiquiatría",
+      "official_name": "PSIQUIATRÍA",
+      "records": [
+        {
+          "specialty_id": "psiquiatria",
+          "official_name": "PSIQUIATRÍA",
+          "year": 2022,
+          "minimum": 60.1045,
+          "maximum": 77.7003,
+          "original_values": [
+            "77.7003",
+            "60.1045"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2022-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "psiquiatria",
+          "official_name": "PSIQUIATRÍA",
+          "year": 2023,
+          "minimum": 61.6071,
+          "maximum": 77.1429,
+          "original_values": [
+            "77.1429",
+            "61.6071"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2023-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "psiquiatria",
+          "official_name": "PSIQUIATRÍA",
+          "year": 2024,
+          "minimum": 62.1429,
+          "maximum": 80.8929,
+          "original_values": [
+            "62.1429",
+            "80.8929"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2024-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "psiquiatria",
+          "official_name": "PSIQUIATRÍA",
+          "year": 2025,
+          "minimum": 62.1429,
+          "maximum": 77.6786,
+          "original_values": [
+            "62.1429",
+            "77.6786"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2025-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        }
+      ],
+      "analytics": {
+        "trend": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "volatility": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "segmented": {
+          "available": false,
+          "reason": "Se requieren al menos 10 ediciones; hay 4."
+        },
+        "forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "demand_forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "pressure": null
+      }
+    },
+    {
+      "id": "radio-oncologia",
+      "name": "Radio oncología",
+      "official_name": "RADIO ONCOLOGÍA",
+      "records": [
+        {
+          "specialty_id": "radio-oncologia",
+          "official_name": "RADIO ONCOLOGÍA",
+          "year": 2022,
+          "minimum": 56.2718,
+          "maximum": 67.4216,
+          "original_values": [
+            "67.4216",
+            "56.2718"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2022-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "radio-oncologia",
+          "official_name": "RADIO ONCOLOGÍA",
+          "year": 2023,
+          "minimum": 57.1429,
+          "maximum": 71.6071,
+          "original_values": [
+            "71.6071",
+            "57.1429"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2023-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "radio-oncologia",
+          "official_name": "RADIO ONCOLOGÍA",
+          "year": 2024,
+          "minimum": 57.8571,
+          "maximum": 71.9643,
+          "original_values": [
+            "57.8571",
+            "71.9643"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2024-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "radio-oncologia",
+          "official_name": "RADIO ONCOLOGÍA",
+          "year": 2025,
+          "minimum": 57.8571,
+          "maximum": 73.75,
+          "original_values": [
+            "57.8571",
+            "73.7500"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2025-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        }
+      ],
+      "analytics": {
+        "trend": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "volatility": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "segmented": {
+          "available": false,
+          "reason": "Se requieren al menos 10 ediciones; hay 4."
+        },
+        "forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "demand_forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "pressure": null
+      }
+    },
+    {
+      "id": "traumatologia-y-ortopedia",
+      "name": "Traumatología y ortopedia",
+      "official_name": "TRAUMATOLOGÍA Y ORTOPEDIA",
+      "records": [
+        {
+          "specialty_id": "traumatologia-y-ortopedia",
+          "official_name": "TRAUMATOLOGÍA Y ORTOPEDIA",
+          "year": 2022,
+          "minimum": 60.9756,
+          "maximum": 80.2683,
+          "original_values": [
+            "80.2683",
+            "60.9756"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2022-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "traumatologia-y-ortopedia",
+          "official_name": "TRAUMATOLOGÍA Y ORTOPEDIA",
+          "year": 2023,
+          "minimum": 62.1429,
+          "maximum": 78.0357,
+          "original_values": [
+            "78.0357",
+            "62.1429"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2023-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "traumatologia-y-ortopedia",
+          "official_name": "TRAUMATOLOGÍA Y ORTOPEDIA",
+          "year": 2024,
+          "minimum": 62.1429,
+          "maximum": 79.2857,
+          "original_values": [
+            "62.1429",
+            "79.2857"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2024-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        },
+        {
+          "specialty_id": "traumatologia-y-ortopedia",
+          "official_name": "TRAUMATOLOGÍA Y ORTOPEDIA",
+          "year": 2025,
+          "minimum": 55.0,
+          "maximum": 86.0714,
+          "original_values": [
+            "55.0000",
+            "86.0714"
+          ],
+          "population": "mexicana",
+          "stage": "Documento de seleccionados publicado; ronda no especificada en tabla",
+          "source_id": "cifrhs-2025-puntajes",
+          "page": 1,
+          "applicants": null,
+          "places": null,
+          "selected": null,
+          "mean": null,
+          "demand_comparable": false,
+          "comparable_group": null,
+          "validation": "extracted_checked",
+          "comparability": "pending_review"
+        }
+      ],
+      "analytics": {
+        "trend": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "volatility": {
+          "available": false,
+          "reason": "Se requieren al menos 6 ediciones; hay 4."
+        },
+        "segmented": {
+          "available": false,
+          "reason": "Se requieren al menos 10 ediciones; hay 4."
+        },
+        "forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "demand_forecast": {
+          "available": false,
+          "reason": "Se requieren al menos 14 ediciones; hay 4."
+        },
+        "pressure": null
+      }
+    }
+  ],
+  "convergence": {
+    "available": false,
+    "reason": "El panel de 28 especialidades tiene 0 ediciones comunes; se requieren al menos 6. Revisar composición y cobertura antes del análisis."
+  },
+  "clusters": {
+    "available": false,
+    "reason": "El panel de 28 especialidades tiene 0 ediciones comunes; se requieren al menos 6. Revisar composición y cobertura antes del análisis."
+  },
+  "coverage_note": "Cobertura inicial 2022–2025. Archivo histórico 2001–2021 sin extracción en esta entrega; 2026 sin resultados definitivos incorporados. Comparabilidad entre ediciones pendiente de revisión documental.",
+  "rank_stability": {
+    "available": false,
+    "reason": "El panel de 28 especialidades tiene 0 ediciones comunes; se requieren al menos 6. Revisar composición y cobertura antes del análisis."
+  }
+}

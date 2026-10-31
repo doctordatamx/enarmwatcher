@@ -1,0 +1,5 @@
+export type Observation = { specialty_id:string; official_name:string; year:number; minimum:number; maximum:number; applicants:number|null; places:number|null; mean:number|null; selected:number|null; source_id:string; population:string; stage:string; page:number; comparable_group:string|null; comparability:string; validation:string };
+export type Result = {available:boolean; reason?:string; [key:string]:unknown};
+export type Specialty = {id:string; name:string; official_name:string; records:Observation[]; analytics:{trend:Result; volatility:Result; segmented:Result; forecast:Result; demand_forecast:Result; pressure:null}};
+export type Source = {id:string;year:number;edition:number;issuer:string;url:string;file:string;sha256:string;downloaded_at:string;parser_version:string;status:string;document_type:string;stage:string;cutoff:null};
+export type Dataset = {version:string;audit_date:string;population:string;years:number[];sources:Source[];specialties:Specialty[];convergence:Result;clusters:Result;rank_stability:Result;coverage_note:string};
